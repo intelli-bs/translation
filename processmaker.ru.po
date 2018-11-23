@@ -59,7 +59,7 @@ msgstr "Не найдены записи для настройки услови�
 # JAVASCRIPT/CONDITIONAL_TITLE
 #: JAVASCRIPT/CONDITIONAL_TITLE
 msgid "CONDITIONAL SHOW/HIDE EDITOR"
-msgstr "Условное отображение/скрыть редактор"
+msgstr "Условный отобразить/скрыть редактор"
 
 # TRANSLATION
 # JAVASCRIPT/curriculum
@@ -113,13 +113,13 @@ msgstr "Вы должны указать пользователя!"
 # JAVASCRIPT/DBCONNECTIONS_MSG7
 #: JAVASCRIPT/DBCONNECTIONS_MSG7
 msgid "Loading test, please wait!..."
-msgstr "Проверка загрузки, подождите, пожалуйста! ..."
+msgstr "Загрузка теста, подождите, пожалуйста! ..."
 
 # TRANSLATION
 # JAVASCRIPT/DBCONNECTIONS_MSGA
 #: JAVASCRIPT/DBCONNECTIONS_MSGA
 msgid "Database Connections Test was aborted"
-msgstr "Испытание соединений базы данных было прервано"
+msgstr "Проверка соединений с базой данных была прервана"
 
 # TRANSLATION
 # JAVASCRIPT/DBCONNECTIONS_MSGR
@@ -167,13 +167,13 @@ msgstr "Имя поля уже существует!"
 # JAVASCRIPT/EDIT_PROCESS
 #: JAVASCRIPT/EDIT_PROCESS
 msgid "Edit process"
-msgstr "Процесс редактирования"
+msgstr "Редактировать процесс"
 
 # TRANSLATION
 # JAVASCRIPT/ERROR_NEW_WS
 #: JAVASCRIPT/ERROR_NEW_WS
 msgid "You have some mistakes, please try again"
-msgstr "Вы допустили какие-то ошибки, пожалуйста, попробуйте еще раз"
+msgstr "Вы допустили ошибки, пожалуйста, попробуйте еще раз"
 
 # TRANSLATION
 # JAVASCRIPT/EVENT_EMAILEXISTS
@@ -185,7 +185,7 @@ msgstr "Пользователь или группа уже есть в спис
 # JAVASCRIPT/HTML_FILES
 #: JAVASCRIPT/HTML_FILES
 msgid "Make sure the uploaded file has the .html or .txt extension"
-msgstr "Убедитесь, что загруженный файл имеет расширение  .html или .txt"
+msgstr "Убедитесь, что загруженный файл имеет расширение .html или .txt"
 
 # TRANSLATION
 # JAVASCRIPT/ID_ABORT
@@ -227,25 +227,25 @@ msgstr "Вы должны выбрать одного сотрудника. Вы
 # JAVASCRIPT/ID_ASSIGN_DYNAFORM
 #: JAVASCRIPT/ID_ASSIGN_DYNAFORM
 msgid "Assign DynaForm"
-msgstr "Назначьте  DynaForm"
+msgstr "Назначьте DynaForm"
 
 # TRANSLATION
 # JAVASCRIPT/ID_ASSIGN_INPUT_DOCUMENT
 #: JAVASCRIPT/ID_ASSIGN_INPUT_DOCUMENT
 msgid "Assign Input Document"
-msgstr "Назначьте Входной Документ"
+msgstr "Назначьте Входящий Документ"
 
 # TRANSLATION
 # JAVASCRIPT/ID_ASSIGN_RULES
 #: JAVASCRIPT/ID_ASSIGN_RULES
 msgid "Error: There is a problem with the next tasks of this process. One of them has manual assignment. Manual assignment shouldn't be used with subprocesses"
-msgstr "Ошибка: возникает проблема со следующими задачами этого процесса. У одного из них есть ручное назначение. Назначение вручную не должно использоваться с подпроцессами"
+msgstr "Ошибка: Возникла проблема со следующими задачами этого процесса. Одна из них назначается вручную. Назначение вручную не должно использоваться с субпроцессами"
 
 # TRANSLATION
 # JAVASCRIPT/ID_ASSIGN_SUPERVISOR
 #: JAVASCRIPT/ID_ASSIGN_SUPERVISOR
 msgid "Assign Process Supervisor"
-msgstr "Назначьте Супервизора Процесса"
+msgstr "Назначьте Руководителя Процесса"
 
 # TRANSLATION
 # JAVASCRIPT/ID_BACKGROUND_COLOR
@@ -269,13 +269,13 @@ msgstr "История задания"
 # JAVASCRIPT/ID_CASE_SCHEDULER_VALIDATE_ALERT
 #: JAVASCRIPT/ID_CASE_SCHEDULER_VALIDATE_ALERT
 msgid "User or password are empty."
-msgstr "Пользователь или пароль пустые."
+msgstr "Пользователь или пароль не введены."
 
 # TRANSLATION
 # JAVASCRIPT/ID_CASE_TRACKER
 #: JAVASCRIPT/ID_CASE_TRACKER
 msgid "Case Tracker"
-msgstr "Средство отслеживания дел"
+msgstr "Трекер заданий"
 
 # TRANSLATION
 # JAVASCRIPT/ID_CASE_TRACKER_OBJECTS
@@ -905,7 +905,7 @@ msgstr "Отменить"
 # JAVASCRIPT/ID_PROCESSMAP_CASE_SCHEDULER_TITLE
 #: JAVASCRIPT/ID_PROCESSMAP_CASE_SCHEDULER_TITLE
 msgid "Case Scheduler List"
-msgstr "Список планировщика дел"
+msgstr "Список планировщика заданий"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_CONDITIONS
@@ -1175,7 +1175,7 @@ msgstr "Определение"
 # JAVASCRIPT/ID_PROCESSMAP_TASK_PROPERTIES_LABELS
 #: JAVASCRIPT/ID_PROCESSMAP_TASK_PROPERTIES_LABELS
 msgid "Case Labels"
-msgstr "Метки дел"
+msgstr "Метки заданий"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_TASK_PROPERTIES_NOTIFICATIONS
@@ -1559,7 +1559,7 @@ msgstr "Добавить пользователей в отдел"
 # LABEL/APP_TITLE_CASE_LABEL_UPDATE
 #: LABEL/APP_TITLE_CASE_LABEL_UPDATE
 msgid "The system has detected that changes to the case labels will affect more than 1000 records, so the changes will be performed by cron the next time it is scheduled to run."
-msgstr "Система обнаружила, что изменения в ярлыках дел повлияют на более чем 1000 записей, поэтому изменения будут выполнены посредством cron в следующий раз, когда запланирован запуск."
+msgstr "Система обнаружила, что изменения в ярлыках заданий повлияют на более чем 1000 записей, поэтому изменения будут выполнены посредством cron в следующий раз, когда запланирован запуск."
 
 # TRANSLATION
 # LABEL/CANCELLED
@@ -2201,7 +2201,7 @@ msgstr "Все Задачи"
 # LABEL/ID_APPCACHE_SETUP
 #: LABEL/ID_APPCACHE_SETUP
 msgid "Case List Cache Builder"
-msgstr "Система компоновки кэша перечня дел"
+msgstr "Система компоновки кэша заданий"
 
 # TRANSLATION
 # LABEL/ID_APPLICATIONS
@@ -3405,7 +3405,7 @@ msgstr "Формат даты"
 # LABEL/ID_CASES_INCORRECT_INFORMATION
 #: LABEL/ID_CASES_INCORRECT_INFORMATION
 msgid "Incorrect or unavailable information about this case: {0}"
-msgstr "Неверная или недоступная информация об этом деле: {0}"
+msgstr "Неверная или недоступная информация об этом залании: {0}"
 
 # TRANSLATION
 # LABEL/ID_CASES_INPUT_DOES_NOT_EXIST
@@ -3429,19 +3429,19 @@ msgstr "Списки операторов ветвления"
 # LABEL/ID_CASES_LIST_FIELDS
 #: LABEL/ID_CASES_LIST_FIELDS
 msgid "Case List Fields"
-msgstr "Поля списков дел"
+msgstr "Поля списков заданий"
 
 # TRANSLATION
 # LABEL/ID_CASES_LIST_GRID_LOADING
 #: LABEL/ID_CASES_LIST_GRID_LOADING
 msgid "Loading Cases List, please wait..."
-msgstr "Загружается список дел, пожалуйста, подождите..."
+msgstr "Загружается список заданий, пожалуйста, подождите..."
 
 # TRANSLATION
 # LABEL/ID_CASES_LIST_SETUP
 #: LABEL/ID_CASES_LIST_SETUP
 msgid "Case Lists"
-msgstr "Списки дел"
+msgstr "Списки заданий"
 
 # TRANSLATION
 # LABEL/ID_CASES_MENU_ADMIN
@@ -3579,13 +3579,13 @@ msgstr "Сделать"
 # LABEL/ID_CASES_STEPS
 #: LABEL/ID_CASES_STEPS
 msgid "Cases Steps"
-msgstr "Шаги дел"
+msgstr "Этапы заданий"
 
 # TRANSLATION
 # LABEL/ID_CASES_SUMMARY
 #: LABEL/ID_CASES_SUMMARY
 msgid "Cases Summary"
-msgstr "Сводка дел"
+msgstr "Сводка заданий"
 
 # TRANSLATION
 # LABEL/ID_CASES_TO_REASSIGN_TASK_LIST
@@ -3747,7 +3747,7 @@ msgstr "Ярлыки задания"
 # LABEL/ID_CASE_LIST
 #: LABEL/ID_CASE_LIST
 msgid "Case List"
-msgstr "Список дел"
+msgstr "Список заданий"
 
 # TRANSLATION
 # LABEL/ID_CASE_NOTE
@@ -3981,13 +3981,13 @@ msgstr "Пользователь с \"{0}\" не имел разрешения �
 # LABEL/ID_CASE_VARIABLE_ALREADY_EXISTS
 #: LABEL/ID_CASE_VARIABLE_ALREADY_EXISTS
 msgid "The Variable with {0}: \"{1}\" already exists in Case"
-msgstr "Переменная с  {0}: \"{1}\" уже существует в Деле"
+msgstr "Переменная с  {0}: \"{1}\" уже существует в задании"
 
 # TRANSLATION
 # LABEL/ID_CASE_VARIABLE_DOES_NOT_EXIST
 #: LABEL/ID_CASE_VARIABLE_DOES_NOT_EXIST
 msgid "The Variable with {0}: \"{1}\" does not exist in Case"
-msgstr "Переменная с  {0}: \"{1}\" не существует в деле"
+msgstr "Переменная с  {0}: \"{1}\" не существует в задании"
 
 # TRANSLATION
 # LABEL/ID_CATEGORY
@@ -4383,7 +4383,7 @@ msgstr "Вы действительно хотите удалить это за�
 # LABEL/ID_CONFIRM_DELETE_CASE_SCHEDULER
 #: LABEL/ID_CONFIRM_DELETE_CASE_SCHEDULER
 msgid "Do you want to delete current Case Scheduler?"
-msgstr "Вы хотите удалить текущий планировщик дел?"
+msgstr "Вы хотите удалить текущий планировщик заданий?"
 
 # TRANSLATION
 # LABEL/ID_CONFIRM_DELETE_CATEGORY
@@ -4575,7 +4575,7 @@ msgstr "Подключено к серверу {0}: {1} с использова�
 # LABEL/ID_CONSOLIDATED_CASE_LIST
 #: LABEL/ID_CONSOLIDATED_CASE_LIST
 msgid "Consolidated Case List"
-msgstr "Консолидированный список дел"
+msgstr "Консолидированный список заданий"
 
 # TRANSLATION
 # LABEL/ID_CONSOLIDATED_DYNAFORM_REQUIRED
@@ -5013,7 +5013,7 @@ msgstr "Текущая рабочая область"
 # LABEL/ID_CUSTOM_CASES_LISTS
 #: LABEL/ID_CUSTOM_CASES_LISTS
 msgid "Custom Case List"
-msgstr "Пользовательский список дел"
+msgstr "Пользовательский список заданий"
 
 # TRANSLATION
 # LABEL/ID_CUSTOM_TRIGGER
@@ -5151,7 +5151,7 @@ msgstr "Сравнить этот месяц с"
 # LABEL/ID_DASH_HELP_INBOX_STATUS
 #: LABEL/ID_DASH_HELP_INBOX_STATUS
 msgid "Percentage of cases that are in Overdue (red), At Risk (yellow), On Time (green)  in the user Inbox."
-msgstr "Процент дел находящихся в просрочке (красный), в риске (желтый), сделано вовремя (зеленый) в папке \"Входящие\" пользователя"
+msgstr "Процент просроченных заданий(красный), в зоне риска (желтый), по графику (зеленый) в папке \"Входящие\" пользователя"
 
 # TRANSLATION
 # LABEL/ID_DASH_HELP_IND_COMPARE
@@ -5679,7 +5679,7 @@ msgstr "Вы не можете удалить это задание, потом�
 # LABEL/ID_DELETE_CASE_SCHEDULER
 #: LABEL/ID_DELETE_CASE_SCHEDULER
 msgid "Delete Case Scheduler"
-msgstr "Удалить планировщик дел"
+msgstr "Удалить планировщик заданий"
 
 # TRANSLATION
 # LABEL/ID_DELETE_CATEGORY
@@ -6525,7 +6525,7 @@ msgstr "Срок оплаты"
 # LABEL/ID_DUPLICATE_CASE_SCHEDULER_NAME
 #: LABEL/ID_DUPLICATE_CASE_SCHEDULER_NAME
 msgid "Duplicate Case Scheduler name."
-msgstr "Дублировать название планировщика дел"
+msgstr "Дублировать название планировщика заданий"
 
 # TRANSLATION
 # LABEL/ID_DUPLICATE_CATEGORY_NAME
@@ -9207,7 +9207,7 @@ msgstr "Скрыть информацию о процессе"
 # LABEL/ID_HISTORY
 #: LABEL/ID_HISTORY
 msgid "My Case History"
-msgstr "История моих дел"
+msgstr "История моих заданий"
 
 # TRANSLATION
 # LABEL/ID_HISTORY_MESSAGES
@@ -10329,7 +10329,7 @@ msgstr "Язык"
 # LABEL/ID_LANGUAGE_CANT_DELETE
 #: LABEL/ID_LANGUAGE_CANT_DELETE
 msgid "There is {0} cases started with this language, delete action canceled!"
-msgstr "На этом языке запущено {0} дел, удаление отменено!"
+msgstr "На этом языке запущено {0} заданий, удаление отменено!"
 
 # TRANSLATION
 # LABEL/ID_LANGUAGE_CANT_DELETE_CURRENTLY
@@ -10683,7 +10683,7 @@ msgstr "Повторите попытку, чтобы применить изм�
 # LABEL/ID_LOG_CASE_SCHEDULER
 #: LABEL/ID_LOG_CASE_SCHEDULER
 msgid "Case Scheduler Log"
-msgstr "Журнал планировщика дел"
+msgstr "Журнал планировщика заданий"
 
 # TRANSLATION
 # LABEL/ID_LOG_INFO
@@ -10845,7 +10845,7 @@ msgstr "Переменные"
 # LABEL/ID_MAFE_0422899c4397e3d67ffc16045df065bd
 #: LABEL/ID_MAFE_0422899c4397e3d67ffc16045df065bd
 msgid "Please configure cron to create cases in base to a signal."
-msgstr "Пожалуйста, конфигурируйте cron для создания дел в базе для сигнала."
+msgstr "Пожалуйста, конфигурируйте cron для создания заданий в базе для сигнала."
 
 # TRANSLATION
 # LABEL/ID_MAFE_0459c698b4236e6e2bcdd7dfe0d5f58b
@@ -10959,7 +10959,7 @@ msgstr "Принятые значения - пустая строка"
 # LABEL/ID_MAFE_07501edbc1f9fd2f7d0f0d71712b11cf
 #: LABEL/ID_MAFE_07501edbc1f9fd2f7d0f0d71712b11cf
 msgid "Case Tracker updated successfully"
-msgstr "Трекер дел успешно обновлен"
+msgstr "Трекер заданий успешно обновлен"
 
 # TRANSLATION
 # LABEL/ID_MAFE_075ae3d2fc31640504f814f60e5ef713
@@ -11277,7 +11277,7 @@ msgstr "копия"
 # LABEL/ID_MAFE_12ddb1802ad1aaed5cd7f41e77bab34a
 #: LABEL/ID_MAFE_12ddb1802ad1aaed5cd7f41e77bab34a
 msgid "Please configure cron to create cases."
-msgstr "Пожалуйста, настройте cron для создания дел."
+msgstr "Пожалуйста, настройте cron для создания заданий."
 
 # TRANSLATION
 # LABEL/ID_MAFE_130c5b3473c57faa76e2a1c54e26f88e
@@ -11685,7 +11685,7 @@ msgstr "альтернативный текст"
 # LABEL/ID_MAFE_208cc8f89088bcae77b83013f46c6cdc
 #: LABEL/ID_MAFE_208cc8f89088bcae77b83013f46c6cdc
 msgid "Show task in New Case"
-msgstr "Показать задачу в новом деле"
+msgstr "Показать задачу в новом задании"
 
 # TRANSLATION
 # LABEL/ID_MAFE_20908be99ead7d291aca60cdd4b4bddb
@@ -12243,7 +12243,7 @@ msgstr "Видео"
 # LABEL/ID_MAFE_353279c7161c0a9425743a96a9b709ef
 #: LABEL/ID_MAFE_353279c7161c0a9425743a96a9b709ef
 msgid "Execute a trigger when a case is unpaused"
-msgstr "Выполнение запуска при активизированном деле"
+msgstr "Выполнить триггер при возобновлении задания"
 
 # TRANSLATION
 # LABEL/ID_MAFE_353710177fda5bb1b46e2a779482c52d
@@ -12717,7 +12717,7 @@ msgstr "дни"
 # LABEL/ID_MAFE_451f887bdbe0c83be42cbfffecedb2f0
 #: LABEL/ID_MAFE_451f887bdbe0c83be42cbfffecedb2f0
 msgid "Select the date and time for case(s) to be initiated."
-msgstr "Выберите дату и время для запуска (-ов) дел"
+msgstr "Выберите дату и время для запуска задания(-й)"
 
 # TRANSLATION
 # LABEL/ID_MAFE_4621590946adadc2f24119e194bd70a6
@@ -13011,7 +13011,7 @@ msgstr "<li> Общий элемент: Наследовать режим от �
 # LABEL/ID_MAFE_50913568f681474c32d3f1b4a9fafdf1
 #: LABEL/ID_MAFE_50913568f681474c32d3f1b4a9fafdf1
 msgid "[LABEL/ID_MAFE_50913568f681474c32d3f1b4a9fafdf1] Case Tracker"
-msgstr "Трекер дел"
+msgstr "Трекер задания"
 
 # TRANSLATION
 # LABEL/ID_MAFE_50a9ec1685a51015e4509529cb939081
@@ -13575,7 +13575,7 @@ msgstr "Нажимая на сгенерированную ссылку на ф�
 # LABEL/ID_MAFE_640eaa8954e206c0dc9a4da71619537d
 #: LABEL/ID_MAFE_640eaa8954e206c0dc9a4da71619537d
 msgid "[LABEL/ID_MAFE_640eaa8954e206c0dc9a4da71619537d] Case Labels"
-msgstr "Ярлыки дел"
+msgstr "Ярлыки задания"
 
 # TRANSLATION
 # LABEL/ID_MAFE_6421c440fabe27193fad6710c33cf7c7
@@ -13665,7 +13665,7 @@ msgstr "скрыто"
 # LABEL/ID_MAFE_66b4af3ab39216f5ecddcb0613abfe04
 #: LABEL/ID_MAFE_66b4af3ab39216f5ecddcb0613abfe04
 msgid "Select Dynaform use in case."
-msgstr "Выберите использование Dynaform в деле."
+msgstr "Выберите Dynaform для использования в задании."
 
 # TRANSLATION
 # LABEL/ID_MAFE_671aa2e8cc2c2435cf509fa4a3baf26c
@@ -14181,7 +14181,7 @@ msgstr "<br/> Dynaforms: создание динамических форм."
 # LABEL/ID_MAFE_796932652e81946789e875a9998ac1fb
 #: LABEL/ID_MAFE_796932652e81946789e875a9998ac1fb
 msgid "Case Tracker Properties"
-msgstr "Свойства трекера дел"
+msgstr "Свойства трекера заданий"
 
 # TRANSLATION
 # LABEL/ID_MAFE_796c163589f295373e171842f37265d5
@@ -14403,7 +14403,7 @@ msgstr "<tr> <td> <b> День года </ b> </ td> <td> DDD </ td> <td> 1 2 ..
 # LABEL/ID_MAFE_8061e4236e0f5d816ccfb3684a1e279c
 #: LABEL/ID_MAFE_8061e4236e0f5d816ccfb3684a1e279c
 msgid "There are problems updating the Case Tracker, please try again."
-msgstr "Есть проблемы с обновлением трекера дел, повторите попытку."
+msgstr "Есть проблемы с обновлением трекера заданий, повторите попытку."
 
 # TRANSLATION
 # LABEL/ID_MAFE_80896219739fe46ae6982d3ac855a5ad
@@ -14733,7 +14733,7 @@ msgstr "Полноэкранный"
 # LABEL/ID_MAFE_8ac0a5f008a929a85fe29e738a9cce1b
 #: LABEL/ID_MAFE_8ac0a5f008a929a85fe29e738a9cce1b
 msgid "Please configure cron to create cases in base to a condition."
-msgstr "Пожалуйста, настройте cron для создания дел в базе до состояния."
+msgstr "Пожалуйста, настройте cron для создания заданий в базе до условия."
 
 # TRANSLATION
 # LABEL/ID_MAFE_8b2930b0ef56a344685dc79ff4aa5cb0
@@ -14973,7 +14973,7 @@ msgstr "Доступные элементы"
 # LABEL/ID_MAFE_9137b642b56c7affcc215d1f027b11d0
 #: LABEL/ID_MAFE_9137b642b56c7affcc215d1f027b11d0
 msgid "Dynaform to show a case summary"
-msgstr "Dynaform, чтобы показать сводку дел"
+msgstr "Dynaform для показа сводки заданий"
 
 # TRANSLATION
 # LABEL/ID_MAFE_91412465ea9169dfd901dd5e7c96dd99
@@ -16017,7 +16017,7 @@ msgstr "Недопустимое значение для целочисленн�
 # LABEL/ID_MAFE_b4e7d2116bb1534c687d16bdc104ddfe
 #: LABEL/ID_MAFE_b4e7d2116bb1534c687d16bdc104ddfe
 msgid "Register a Case Note when the recipient submits the Response"
-msgstr "Зарегистрируйте примечание к делу, когда получатель передает ответ"
+msgstr "Зарегистрируйте заметку к заданию, когда получатель подтверждает ответ"
 
 # TRANSLATION
 # LABEL/ID_MAFE_b4fab4396dba8d97b190eb5f4c5dc76f
@@ -19245,13 +19245,13 @@ msgstr "% Новые задания"
 # LABEL/ID_NEW_CASE_PANEL
 #: LABEL/ID_NEW_CASE_PANEL
 msgid "New Case Panel"
-msgstr "Новая панель дел"
+msgstr "Новая панель заданий"
 
 # TRANSLATION
 # LABEL/ID_NEW_CASE_SCHEDULER
 #: LABEL/ID_NEW_CASE_SCHEDULER
 msgid "New Case Scheduler"
-msgstr "Новый планировщик дел"
+msgstr "Новый планировщик заданий"
 
 # TRANSLATION
 # LABEL/ID_NEW_CATEGORY
@@ -19515,7 +19515,7 @@ msgstr "После маршрутизации уведомите следующ�
 # LABEL/ID_NOTIFY_USERS_CASE
 #: LABEL/ID_NOTIFY_USERS_CASE
 msgid "Notify users of case"
-msgstr "Уведомлять пользователей о деле"
+msgstr "Уведомлять пользователей о задании"
 
 # TRANSLATION
 # LABEL/ID_NOT_ABLE_REASSIGN
@@ -19857,7 +19857,7 @@ msgstr "Нулевой"
 # LABEL/ID_NUMBER_CASES
 #: LABEL/ID_NUMBER_CASES
 msgid "Number cases"
-msgstr "Количество дел"
+msgstr "Количество заданий"
 
 # TRANSLATION
 # LABEL/ID_OBJECT
@@ -20991,7 +20991,7 @@ msgstr "Главная Настройки"
 # LABEL/ID_PM_ENV_SETTINGS_CASESLIST_TITLE
 #: LABEL/ID_PM_ENV_SETTINGS_CASESLIST_TITLE
 msgid "Cases Lists Settings"
-msgstr "Настройки списка дел"
+msgstr "Настройки списка заданий"
 
 # TRANSLATION
 # LABEL/ID_PM_ENV_SETTINGS_REGIONFIELDSET_TITLE
@@ -22533,25 +22533,25 @@ msgstr "Продолжительность задания по процессу 
 # LABEL/ID_REPORT2
 #: LABEL/ID_REPORT2
 msgid "Number of cases per process"
-msgstr "Количество дел на процесс"
+msgstr "Количество заданий для каждого процесса"
 
 # TRANSLATION
 # LABEL/ID_REPORT3
 #: LABEL/ID_REPORT3
 msgid "Number of cases per month"
-msgstr "Количество дел в месяц"
+msgstr "Количество заданий в месяц"
 
 # TRANSLATION
 # LABEL/ID_REPORT4
 #: LABEL/ID_REPORT4
 msgid "Number of cases per starting user"
-msgstr "Количество дел для каждого пользователя"
+msgstr "Количество заданий для каждого пользователя"
 
 # TRANSLATION
 # LABEL/ID_REPORT5
 #: LABEL/ID_REPORT5
 msgid "Number of cases per executing user"
-msgstr "Количество дел для каждого пользователя"
+msgstr "Количество заданий для каждого пользователя"
 
 # TRANSLATION
 # LABEL/ID_REPORTS
@@ -22665,7 +22665,7 @@ msgstr "Маркированные поля в форме необходимы �
 # LABEL/ID_REQUIRED_NAME_CASE_SCHEDULER
 #: LABEL/ID_REQUIRED_NAME_CASE_SCHEDULER
 msgid "You forgot the name of the Case Scheduler"
-msgstr "Вы забыли имя планировщика дел"
+msgstr "Вы забыли имя планировщика заданий"
 
 # TRANSLATION
 # LABEL/ID_REQUIRED_NAME_DYNAFORM
@@ -22917,7 +22917,7 @@ msgstr "Состояние маршрутизируемого задания"
 # LABEL/ID_ROUTE_BATCH_ROUTING
 #: LABEL/ID_ROUTE_BATCH_ROUTING
 msgid "Route cases per batch?"
-msgstr "Маршруты дел на на каждую партию?"
+msgstr "Маршруты заданий на каждую группу?"
 
 # TRANSLATION
 # LABEL/ID_ROUTE_IS_SECJOIN
@@ -23145,13 +23145,13 @@ msgstr "Процесс сохранения"
 # LABEL/ID_SCHEDULER_LIST
 #: LABEL/ID_SCHEDULER_LIST
 msgid "New cases scheduler"
-msgstr "Новый планировщик дел"
+msgstr "Новый планировщик заданий"
 
 # TRANSLATION
 # LABEL/ID_SCHEDULER_LOG
 #: LABEL/ID_SCHEDULER_LOG
 msgid "Cases Scheduler Logs"
-msgstr "Журналы планировщиков дел"
+msgstr "Журналы планировщиков заданий"
 
 # TRANSLATION
 # LABEL/ID_SCHEDULER_SUCCESS_CHANGE_STATUS
@@ -23163,7 +23163,7 @@ msgstr "Правильно изменен статус Планировщика.
 # LABEL/ID_SCHEDULER_SUCCESS_DELETE
 #: LABEL/ID_SCHEDULER_SUCCESS_DELETE
 msgid "Case Scheduler has been deleted correctly."
-msgstr "Планировщик дел был удален правильно."
+msgstr "Планировщик заданий был удален правильно."
 
 # TRANSLATION
 # LABEL/ID_SCHEDULER_SUCCESS_NEW
@@ -23769,7 +23769,7 @@ msgstr "Выберите язык из списка."
 # LABEL/ID_SHOW_CASES_NOTES
 #: LABEL/ID_SHOW_CASES_NOTES
 msgid "Show Case Notes"
-msgstr "Показать заметки дел"
+msgstr "Показать заметки задания"
 
 # TRANSLATION
 # LABEL/ID_SHOW_DIRS
@@ -23781,7 +23781,7 @@ msgstr "Показать каталоги"
 # LABEL/ID_SHOW_HIDE_CASES_STEPS
 #: LABEL/ID_SHOW_HIDE_CASES_STEPS
 msgid "Show or hide the Cases Steps"
-msgstr "Показать или скрыть шаги дел"
+msgstr "Показать или скрыть этапы заданий"
 
 # TRANSLATION
 # LABEL/ID_SIGN_IN
@@ -26529,7 +26529,7 @@ msgstr "Этот пользователь usr_uid: {0} не имеет нача�
 # LABEL/ID_USER_NOT_IT_BELONGS_CASE_OR_NOT_SUPERVISOR
 #: LABEL/ID_USER_NOT_IT_BELONGS_CASE_OR_NOT_SUPERVISOR
 msgid "The user does not belong to case or user not is supervisor"
-msgstr "Пользователь не относится к делу, или пользователь не является контролером"
+msgstr "Пользователь не относится к заданию, или пользователь не является руководителем"
 
 # TRANSLATION
 # LABEL/ID_USER_NOT_REGISTER
@@ -29781,7 +29781,7 @@ msgstr "Предыдущий пользователь"
 # cases/cases_CatchSelfService.xml
 #: submit - BTN_CATCH
 msgid "Claim this case"
-msgstr "Заявить об этом деле"
+msgstr "Подписаться на это задание"
 
 # cases/cases_CatchSelfService.xml?BTN_CANCEL
 # cases/cases_CatchSelfService.xml
@@ -31437,7 +31437,7 @@ msgstr "НАЗАД"
 # cases/cases_ReassignBy.xml
 #: subtitle - title
 msgid "<center>Reassignment of Cases</center>"
-msgstr "<center>Переназначение дел</center>"
+msgstr "<center>Переназначение заданий</center>"
 
 # cases/cases_ReassignBy.xml?REASSIGN_BY
 # cases/cases_ReassignBy.xml
@@ -31665,7 +31665,7 @@ msgstr "Выполните эту задачу"
 # cases/cases_Scheduler_Edit.xml
 #: subtitle - SELECT_TIME_DAY
 msgid "[cases/cases_Scheduler_Edit.xml?SELECT_TIME_DAY] Select the date and time for case(s) to be initiated."
-msgstr "Выберите дату и время для запуска (-ов) дел."
+msgstr "Выберите дату и время для запуска задания(-й)."
 
 # cases/cases_Scheduler_Edit.xml?SCH_START_TIME
 # cases/cases_Scheduler_Edit.xml
@@ -32271,7 +32271,7 @@ msgstr "Every"
 # cases/cases_Scheduler_New.xml
 #: subtitle - SELECT_TIME_DAY
 msgid "[cases/cases_Scheduler_New.xml?SELECT_TIME_DAY] Select the date and time for case(s) to be initiated."
-msgstr "Выберите дату и время для запуска (-ов) дел."
+msgstr "Выберите дату и время для запуска задания(-й)."
 
 # cases/cases_Scheduler_New.xml?SCH_START_TIME
 # cases/cases_Scheduler_New.xml
@@ -41065,7 +41065,7 @@ msgstr "Процессы"
 # reports/report1_dashboard.xml
 #: text - CANTCASES
 msgid "[reports/report1_dashboard.xml?CANTCASES] Total Cases"
-msgstr "Всего дел"
+msgstr "Всего заданий"
 
 # reports/report1_dashboard.xml?MAX
 # reports/report1_dashboard.xml
@@ -41125,7 +41125,7 @@ msgstr "Процессы"
 # reports/report2.xml
 #: text - CANTCASES
 msgid "[reports/report2.xml?CANTCASES] Total Cases"
-msgstr "Всего дел"
+msgstr "Всего заданий"
 
 # reports/report2.xml?MIN
 # reports/report2.xml
@@ -41161,7 +41161,7 @@ msgstr "Процессы"
 # reports/report2_dashboard.xml
 #: text - CANTCASES
 msgid "[reports/report2_dashboard.xml?CANTCASES] Total Cases"
-msgstr "Всего дел"
+msgstr "Всего заданий"
 
 # reports/report2_dashboard.xml?MAX
 # reports/report2_dashboard.xml
@@ -41191,7 +41191,7 @@ msgstr "Дата"
 # reports/report3.xml
 #: text - CANTCASES
 msgid "[reports/report3.xml?CANTCASES] Total Cases"
-msgstr "Всего дел"
+msgstr "Всего заданий"
 
 # reports/report3.xml?MIN
 # reports/report3.xml
@@ -41227,7 +41227,7 @@ msgstr "Дата"
 # reports/report3_dashboard.xml
 #: text - CANTCASES
 msgid "[reports/report3_dashboard.xml?CANTCASES] Total Cases"
-msgstr "Всего дел"
+msgstr "Всего заданий"
 
 # reports/report3_dashboard.xml?MAX
 # reports/report3_dashboard.xml
@@ -41257,7 +41257,7 @@ msgstr "Пользователь"
 # reports/report4.xml
 #: text - CANTCASES
 msgid "[reports/report4.xml?CANTCASES] Total Cases"
-msgstr "Всего дел"
+msgstr "Всего заданий"
 
 # reports/report4.xml?MIN
 # reports/report4.xml
@@ -41293,7 +41293,7 @@ msgstr "Пользователь"
 # reports/report4_dashboard.xml
 #: text - CANTCASES
 msgid "[reports/report4_dashboard.xml?CANTCASES] Total Cases"
-msgstr "Всего дел"
+msgstr "Всего заданий"
 
 # reports/report4_dashboard.xml?MAX
 # reports/report4_dashboard.xml
@@ -41323,7 +41323,7 @@ msgstr "Пользователь"
 # reports/report5.xml
 #: text - CANTCASES
 msgid "[reports/report5.xml?CANTCASES] Total Cases"
-msgstr "Всего дел"
+msgstr "Всего заданий"
 
 # reports/report5.xml?MIN
 # reports/report5.xml
@@ -41359,7 +41359,7 @@ msgstr "Пользователь"
 # reports/report5_dashboard.xml
 #: text - CANTCASES
 msgid "[reports/report5_dashboard.xml?CANTCASES] Total Cases"
-msgstr "Всего дел"
+msgstr "Всего заданий"
 
 # reports/report5_dashboard.xml?MAX
 # reports/report5_dashboard.xml
@@ -44101,7 +44101,7 @@ msgstr "Id Сессии"
 # setup/wsCaseList.xml
 #: button - ACTIONB
 msgid "CaseList"
-msgstr "Список дел"
+msgstr "Список заданий"
 
 # setup/wsCreateUser.xml?SESSION_ID
 # setup/wsCreateUser.xml
@@ -44629,7 +44629,7 @@ msgstr "Id Сессии"
 # setup/wsUnassignedCaseList.xml
 #: button - ACTIONB
 msgid "UnassignedCaseList"
-msgstr "Неназначенный список дел"
+msgstr "Список неназначенных заданий"
 
 # setup/wsUserList.xml?SESSION_ID
 # setup/wsUserList.xml
@@ -46729,7 +46729,7 @@ msgstr "Опция главного меню по умолчанию"
 # users/myInfo.xml
 #: dropdown - PREF_DEFAULT_CASES_MENUSELECTED
 msgid "Default Cases Menu Option"
-msgstr "Вариант меню дел по умолчанию"
+msgstr "Параметр меню заданий по умолчанию"
 
 # users/myInfo.xml?SUBMIT3
 # users/myInfo.xml
@@ -47113,7 +47113,7 @@ msgstr "Опция главного меню по умолчанию"
 # users/myInfoView.xml
 #: dropdown - PREF_DEFAULT_CASES_MENUSELECTED
 msgid "[users/myInfoView.xml?PREF_DEFAULT_CASES_MENUSELECTED] Default Cases Menu Option"
-msgstr "Вариант меню дел по умолчанию"
+msgstr "Параметр меню заданий по умолчанию"
 
 # users/myInfoView.xml?SUBMIT3
 # users/myInfoView.xml
@@ -47365,7 +47365,7 @@ msgstr ""
 # users/users_DeleteAssign.xml
 #: title - MESSAGE
 msgid "<center>User cases summary</center>"
-msgstr "<center> Резюме пользовательских дел </ center>"
+msgstr "<center> Сводка пользовательских заданий </ center>"
 
 # users/users_DeleteAssign.xml?TO_DO
 # users/users_DeleteAssign.xml
@@ -48505,7 +48505,7 @@ msgstr "Процесс"
 # users/users_ReassignCases.xml
 #: text - CANTITY
 msgid "No. of cases"
-msgstr "Номер дел"
+msgstr "Число заданий"
 
 # users/users_ReassignCases.xml?USERS
 # users/users_ReassignCases.xml
@@ -48517,7 +48517,7 @@ msgstr "Переназначить"
 # users/users_ReassignSelectSubType.xml
 #: title - TITLE1
 msgid "Select the type grouping of the cases"
-msgstr "Выберите тип группировки дел"
+msgstr "Выберите тип группировки заданий"
 
 # users/users_ReassignSelectSubType.xml?TYPE
 # users/users_ReassignSelectSubType.xml

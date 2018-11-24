@@ -59,7 +59,7 @@ msgstr "Не найдены записи для настройки услови�
 # JAVASCRIPT/CONDITIONAL_TITLE
 #: JAVASCRIPT/CONDITIONAL_TITLE
 msgid "CONDITIONAL SHOW/HIDE EDITOR"
-msgstr "Условный отобразить/скрыть редактор"
+msgstr "Отобразить/скрыть условный редактор"
 
 # TRANSLATION
 # JAVASCRIPT/curriculum
@@ -437,25 +437,25 @@ msgstr "DynaForms"
 # JAVASCRIPT/ID_DYNAFORM_ASSIGN
 #: JAVASCRIPT/ID_DYNAFORM_ASSIGN
 msgid "You cannot delete this Dynaform while it is assigned to a step."
-msgstr "Вы не можете удалить данную Dynaform, пока она привязана к шагу."
+msgstr "Вы не можете удалить данную Dynaform, пока она привязана к этапу."
 
 # TRANSLATION
 # JAVASCRIPT/ID_EDIT_STAGES_MAP
 #: JAVASCRIPT/ID_EDIT_STAGES_MAP
 msgid "Edit Stages Map"
-msgstr "Редактировать схему шагов"
+msgstr "Редактировать схему этапов"
 
 # TRANSLATION
 # JAVASCRIPT/ID_EMAIL_INVALID
 #: JAVASCRIPT/ID_EMAIL_INVALID
 msgid "The mail is invalid"
-msgstr "Данная почта недействительна"
+msgstr "Email недействителен"
 
 # TRANSLATION
 # JAVASCRIPT/ID_EMAIL_REQUIRED
 #: JAVASCRIPT/ID_EMAIL_REQUIRED
 msgid "Mail To is required, or uncheck the Send a Test Mail option"
-msgstr "Требуется ввести адрес для писем либо снять пометку на опции \"Отправить пробное письмо\""
+msgstr "Требуется ввести email получателя либо снять отметку на опции \"Отправить тестовое письмо\""
 
 # TRANSLATION
 # JAVASCRIPT/ID_EMPTY_NODENAME
@@ -491,13 +491,13 @@ msgstr "Условное событие"
 # JAVASCRIPT/ID_EVENT_MESSAGE
 #: JAVASCRIPT/ID_EVENT_MESSAGE
 msgid "Message Event"
-msgstr "Событие сообщения"
+msgstr "Событие при сообщении"
 
 # TRANSLATION
 # JAVASCRIPT/ID_EVENT_MULTIPLE
 #: JAVASCRIPT/ID_EVENT_MULTIPLE
 msgid "Multiple Event"
-msgstr "Составное событие"
+msgstr "Множественное событие"
 
 # TRANSLATION
 # JAVASCRIPT/ID_EXIST_DYNAFORM
@@ -509,13 +509,13 @@ msgstr "Существует Dynaform  с таким же именем в дан
 # JAVASCRIPT/ID_EXIST_INPUTDOCUMENT
 #: JAVASCRIPT/ID_EXIST_INPUTDOCUMENT
 msgid "Can not save, because there is an Input Document with the same name in this process."
-msgstr "Невозможно сохранить, поскольку существует Входной Документ с таким же именем в данном процессе."
+msgstr "Невозможно сохранить, поскольку существует Входящий Документ с таким же именем в данном процессе."
 
 # TRANSLATION
 # JAVASCRIPT/ID_EXIST_OUTPUTDOCUMENT
 #: JAVASCRIPT/ID_EXIST_OUTPUTDOCUMENT
 msgid "Can not save, because, there is an Output Document with the same name in this process."
-msgstr "Невозможно сохранить, поскольку существует Выходной Документ с таким же именем в данном процессе."
+msgstr "Невозможно сохранить, поскольку существует Исходящий Документ с таким же именем в данном процессе."
 
 # TRANSLATION
 # JAVASCRIPT/ID_EXIST_PROCESS
@@ -527,7 +527,7 @@ msgstr "Данный процесс нельзя сохранить, поско�
 # JAVASCRIPT/ID_EXIST_TRIGGERS
 #: JAVASCRIPT/ID_EXIST_TRIGGERS
 msgid "There is a trigger with the same name in the process."
-msgstr "Существует запуск с таким же именем в процессе."
+msgstr "Существует триггер с таким же именем в процессе."
 
 # TRANSLATION
 # JAVASCRIPT/ID_EXIT_WITHOUT_SAVING
@@ -557,13 +557,13 @@ msgstr "Поле \"таблица\" является обязательным д
 # JAVASCRIPT/ID_FILEGENERATED
 #: JAVASCRIPT/ID_FILEGENERATED
 msgid "Filename generated, is required!"
-msgstr "Образованное имя файла обязательное для заполнения!"
+msgstr "Сгенерированное имя файла обязательное для заполнения!"
 
 # TRANSLATION
 # JAVASCRIPT/ID_FILL_SERVER
 #: JAVASCRIPT/ID_FILL_SERVER
 msgid "You must specify a server!"
-msgstr "Следует  указать сервер!"
+msgstr "Следует указать сервер!"
 
 # TRANSLATION
 # JAVASCRIPT/ID_FONT_COLOR
@@ -587,7 +587,7 @@ msgstr "Размер шрифта"
 # JAVASCRIPT/ID_GENERATED_DOCUMENTS
 #: JAVASCRIPT/ID_GENERATED_DOCUMENTS
 msgid "Generated Documents"
-msgstr "Созданные документы"
+msgstr "Сгенерированные документы"
 
 # TRANSLATION
 # JAVASCRIPT/ID_GROUP
@@ -629,7 +629,7 @@ msgstr "Информация"
 # JAVASCRIPT/ID_INPUT_DOCUMENT_HISTORY
 #: JAVASCRIPT/ID_INPUT_DOCUMENT_HISTORY
 msgid "Input Document History"
-msgstr "История Входного Документа"
+msgstr "История Входящего Документа"
 
 # TRANSLATION
 # JAVASCRIPT/ID_INSERT_HTML
@@ -659,7 +659,7 @@ msgstr "Промежуточный таймер"
 # JAVASCRIPT/ID_INVALID_EMAIL
 #: JAVASCRIPT/ID_INVALID_EMAIL
 msgid "The E-mail address is not valid."
-msgstr "Ваш электронный адрес не действителен."
+msgstr "Ваш email не действителен."
 
 # TRANSLATION
 # JAVASCRIPT/ID_LOST_SESSION_XMLFORM
@@ -689,7 +689,7 @@ msgstr "Поле Сообщение обязательно для заполне
 # JAVASCRIPT/ID_MESS_ACCOUNT_REQUIRED
 #: JAVASCRIPT/ID_MESS_ACCOUNT_REQUIRED
 msgid "The email account is required"
-msgstr "Адрес электронной почты обязателен для заполнения"
+msgstr "email обязателен для заполнения"
 
 # TRANSLATION
 # JAVASCRIPT/ID_MESS_EXECUTE_EVERY_REQUIRED
@@ -707,7 +707,7 @@ msgstr "Сервер электронной почты обязателен дл
 # JAVASCRIPT/ID_MESS_TEST_FROM_EMAIL
 #: JAVASCRIPT/ID_MESS_TEST_FROM_EMAIL
 msgid "The 'From Email' field is required"
-msgstr "Поле \"С электронной почты\" обязательно для заполнения"
+msgstr "Поле \"email от\" обязательно для заполнения"
 
 # TRANSLATION
 # JAVASCRIPT/ID_MESS_TEST_TO
@@ -743,37 +743,37 @@ msgstr "Вы хотите удалить это разрешение?"
 # JAVASCRIPT/ID_MSG_CONFIRM_DELETE_SUPERVISOR_PROCESSUSER
 #: JAVASCRIPT/ID_MSG_CONFIRM_DELETE_SUPERVISOR_PROCESSUSER
 msgid "Do you want to delete this supervisor?"
-msgstr "Вы хотите удалить этого супервизора?"
+msgstr "Вы хотите удалить этого руководителя?"
 
 # TRANSLATION
 # JAVASCRIPT/ID_MSG_CONFIRM_REACTIVATE_CASES
 #: JAVASCRIPT/ID_MSG_CONFIRM_REACTIVATE_CASES
 msgid "Are you sure you want to reactivate this case?"
-msgstr "Выуверены, что хотите восстановить это задание?"
+msgstr "Вы уверены, что хотите возобновить это задание?"
 
 # TRANSLATION
 # JAVASCRIPT/ID_MSG_CONFIRM_REMOVE_DBS
 #: JAVASCRIPT/ID_MSG_CONFIRM_REMOVE_DBS
 msgid "Are you sure you want to remove this DB Connection?"
-msgstr "Вы уверены, что хотите убрать это DB-соединение?"
+msgstr "Вы уверены, что хотите удалить это DB соединение?"
 
 # TRANSLATION
 # JAVASCRIPT/ID_MSG_CONFIRM_REMOVE_TASK
 #: JAVASCRIPT/ID_MSG_CONFIRM_REMOVE_TASK
 msgid "Do you want to remove this task?"
-msgstr "Вы хотите убрать эту задачу?"
+msgstr "Вы хотите удалить эту задачу?"
 
 # TRANSLATION
 # JAVASCRIPT/ID_MSG_CONFIRM_REMOVE_TRIGGER
 #: JAVASCRIPT/ID_MSG_CONFIRM_REMOVE_TRIGGER
 msgid "[JAVASCRIPT/ID_MSG_CONFIRM_REMOVE_TRIGGER] Are you sure you want to remove this trigger?"
-msgstr "Вы уверены, что хотите убрать данный запуск?"
+msgstr "Вы уверены, что хотите удалить данный триггер?"
 
 # TRANSLATION
 # JAVASCRIPT/ID_MSG_CONFIRM_REMOVE_USERGROUP
 #: JAVASCRIPT/ID_MSG_CONFIRM_REMOVE_USERGROUP
 msgid "Are you sure you want to remove this user group?"
-msgstr "Вы уверены, что хотите убрать данную группу пользователя?"
+msgstr "Вы уверены, что хотите удалить данную группу пользователя?"
 
 # TRANSLATION
 # JAVASCRIPT/ID_MSG_CONFIRM_RESENDMSG
@@ -803,7 +803,7 @@ msgstr "Невозможно удалить первую строку!"
 # JAVASCRIPT/ID_MSG_REMOVE_PLUGIN
 #: JAVASCRIPT/ID_MSG_REMOVE_PLUGIN
 msgid "Are you sure that you want to remove this plugin?"
-msgstr "Вы уверены, что хотите убрать этот плагин?"
+msgstr "Вы уверены, что хотите удалить этот плагин?"
 
 # TRANSLATION
 # JAVASCRIPT/ID_MSG_RESSIGN_B
@@ -845,7 +845,7 @@ msgstr "Маршрутизации не определены."
 # JAVASCRIPT/ID_OBJECT_PERMISSIONS
 #: JAVASCRIPT/ID_OBJECT_PERMISSIONS
 msgid "Process Permissions"
-msgstr "Разрешения Процессов"
+msgstr "Разрешения Процесса"
 
 # TRANSLATION
 # JAVASCRIPT/ID_OPEN_SEARCH
@@ -857,7 +857,7 @@ msgstr "Расширенный поиск"
 # JAVASCRIPT/ID_PASSWORD_REQUIRED
 #: JAVASCRIPT/ID_PASSWORD_REQUIRED
 msgid "The password is required, or uncheck the option Require Authentication"
-msgstr "Требуется ввести пароль либо снять пометку на опции \"Требуется проверка права доступа\""
+msgstr "Требуется ввести пароль либо снять отметку на опции \"Требуется проверка прав доступа\""
 
 # TRANSLATION
 # JAVASCRIPT/ID_PLEASE_SELECT_OTHER_OBJECT_TYPE
@@ -875,7 +875,7 @@ msgstr "Добавить этап"
 # JAVASCRIPT/ID_PROCESSMAP_ADD_SUBPROCESS
 #: JAVASCRIPT/ID_PROCESSMAP_ADD_SUBPROCESS
 msgid "Add Sub-Process"
-msgstr "Добавить Подпроцесс"
+msgstr "Добавить субпроцесс"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_ADD_TASK
@@ -917,7 +917,7 @@ msgstr "Условия"
 # JAVASCRIPT/ID_PROCESSMAP_CONFIRM_DELETE_ALL_LINES
 #: JAVASCRIPT/ID_PROCESSMAP_CONFIRM_DELETE_ALL_LINES
 msgid "Do you want to delete the guide lines?"
-msgstr "Вы хотите удалить руководства?"
+msgstr "Вы хотите удалить инструкции?"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_CONFIRM_DELETE_STAGE
@@ -929,7 +929,7 @@ msgstr "Вы хотите удалить этап:"
 # JAVASCRIPT/ID_PROCESSMAP_CONFIRM_DELETE_SUBPROCESS
 #: JAVASCRIPT/ID_PROCESSMAP_CONFIRM_DELETE_SUBPROCESS
 msgid "Do you want to delete the Sub-Process:"
-msgstr "Вы хотите удалить подпроцесс:"
+msgstr "Вы хотите удалить субпроцесс:"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_CONFIRM_DELETE_TASK
@@ -971,7 +971,7 @@ msgstr "Удалить этап"
 # JAVASCRIPT/ID_PROCESSMAP_DELETE_SUBPROCESS
 #: JAVASCRIPT/ID_PROCESSMAP_DELETE_SUBPROCESS
 msgid "Delete Sub-Process"
-msgstr "Удалить подпроцесс"
+msgstr "Удалить субпроцесс"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_DELETE_TASK
@@ -1031,7 +1031,7 @@ msgstr "Горизонтальная линия"
 # JAVASCRIPT/ID_PROCESSMAP_INPUT_DOCUMENTS
 #: JAVASCRIPT/ID_PROCESSMAP_INPUT_DOCUMENTS
 msgid "Input Documents"
-msgstr "Входные документы"
+msgstr "Входящие документы"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_LOADING
@@ -1049,31 +1049,31 @@ msgstr "Новая задача"
 # JAVASCRIPT/ID_PROCESSMAP_OUTPUT_DOCUMENTS
 #: JAVASCRIPT/ID_PROCESSMAP_OUTPUT_DOCUMENTS
 msgid "Output Documents"
-msgstr "Выходные документы"
+msgstr "Исходящие документы"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_PARALLEL_EVALUATION_FORK
 #: JAVASCRIPT/ID_PROCESSMAP_PARALLEL_EVALUATION_FORK
 msgid "Parallel by Evaluation (fork)"
-msgstr "Параллельно по Оценке (fork)"
+msgstr "Параллельно по Оценке (развилка)"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_PARALLEL_FORK
 #: JAVASCRIPT/ID_PROCESSMAP_PARALLEL_FORK
 msgid "Parallel (fork)"
-msgstr "Параллель (fork)"
+msgstr "Параллель (развилка)"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_PARALLEL_JOIN
 #: JAVASCRIPT/ID_PROCESSMAP_PARALLEL_JOIN
 msgid "Parallel (join)"
-msgstr "Параллель (join)"
+msgstr "Параллель (объединение)"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_PROCESS_SUPERVISORS
 #: JAVASCRIPT/ID_PROCESSMAP_PROCESS_SUPERVISORS
 msgid "Supervisors"
-msgstr "Контролеры"
+msgstr "Руководители"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_PROMPT_RENAME_TEXT
@@ -1091,7 +1091,7 @@ msgstr "Свойства"
 # JAVASCRIPT/ID_PROCESSMAP_PSUPERVISORS
 #: JAVASCRIPT/ID_PROCESSMAP_PSUPERVISORS
 msgid "Process Supervisors"
-msgstr "Контролеры процессов"
+msgstr "Руководители процессов"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_REPORT_TABLES
@@ -1121,7 +1121,7 @@ msgstr "Последовательный"
 # JAVASCRIPT/ID_PROCESSMAP_STEPS
 #: JAVASCRIPT/ID_PROCESSMAP_STEPS
 msgid "Steps"
-msgstr "Шаги"
+msgstr "Этапы"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_SUBMIT
@@ -1139,7 +1139,7 @@ msgstr "DynaForms"
 # JAVASCRIPT/ID_PROCESSMAP_SUPERVISORS_INPUTS
 #: JAVASCRIPT/ID_PROCESSMAP_SUPERVISORS_INPUTS
 msgid "[JAVASCRIPT/ID_PROCESSMAP_SUPERVISORS_INPUTS] Input Documents"
-msgstr "Входные документы"
+msgstr "Входящие документы"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_TASK
@@ -1199,7 +1199,7 @@ msgstr "Контроль по времени"
 # JAVASCRIPT/ID_PROCESSMAP_TASK_STEPS
 #: JAVASCRIPT/ID_PROCESSMAP_TASK_STEPS
 msgid "Steps of:"
-msgstr "Шаги (чего):"
+msgstr "Этапы:"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_TEXT
@@ -1211,7 +1211,7 @@ msgstr "Текст:"
 # JAVASCRIPT/ID_PROCESSMAP_TRIGGERS
 #: JAVASCRIPT/ID_PROCESSMAP_TRIGGERS
 msgid "Triggers"
-msgstr "Запуски"
+msgstr "Триггеры"
 
 # TRANSLATION
 # JAVASCRIPT/ID_PROCESSMAP_USERS_AND_GROUPS
@@ -1283,7 +1283,7 @@ msgstr "Вы уверены, что хотите переназначить за
 # JAVASCRIPT/ID_REMOVE
 #: JAVASCRIPT/ID_REMOVE
 msgid "Remove"
-msgstr "Убрать"
+msgstr "Удалить"
 
 # TRANSLATION
 # JAVASCRIPT/ID_REMOVE_LOGO
@@ -1313,7 +1313,7 @@ msgstr "Следующие поля являются обязательными 
 # JAVASCRIPT/ID_REQUIRED_NAME_TRIGGERS
 #: JAVASCRIPT/ID_REQUIRED_NAME_TRIGGERS
 msgid "You forgot the title of the trigger"
-msgstr "Вы забыли указать заголовок запуска"
+msgstr "Вы забыли указать заголовок триггера"
 
 # TRANSLATION
 # JAVASCRIPT/ID_REQ_TITLE
@@ -1331,31 +1331,31 @@ msgstr "Сброс"
 # JAVASCRIPT/ID_ROLES_CAN_NOT_DELETE
 #: JAVASCRIPT/ID_ROLES_CAN_NOT_DELETE
 msgid "This role cannot be deleted while it still has some assigned users."
-msgstr "Данную функцию нельзя удалить , пока у нее все еще есть некоторые назначенные пользователи."
+msgstr "Данную роль нельзя удалить, пока у нее все еще есть назначенные пользователи."
 
 # TRANSLATION
 # JAVASCRIPT/ID_ROLES_MSG
 #: JAVASCRIPT/ID_ROLES_MSG
 msgid "You cannot modify this role."
-msgstr "Вы не можете модифицировать данную функцию."
+msgstr "Вы не можете модифицировать данную роль."
 
 # TRANSLATION
 # JAVASCRIPT/ID_ROLES_MSG1
 #: JAVASCRIPT/ID_ROLES_MSG1
 msgid "You must specify a role code!"
-msgstr "Вы должны указать код функции!"
+msgstr "Вы должны указать код роли!"
 
 # TRANSLATION
 # JAVASCRIPT/ID_ROLES_MSG2
 #: JAVASCRIPT/ID_ROLES_MSG2
 msgid "Role already exists! Please choose another."
-msgstr "Функция уже существует! Выберите другую."
+msgstr "Роль уже существует! Выберите другую."
 
 # TRANSLATION
 # JAVASCRIPT/ID_ROLES_MSG3
 #: JAVASCRIPT/ID_ROLES_MSG3
 msgid "You must specify a role name!"
-msgstr "Следует указать имя функции!"
+msgstr "Следует указать имя роли!"
 
 # TRANSLATION
 # JAVASCRIPT/ID_RSTDATAFIELD
@@ -1403,7 +1403,7 @@ msgstr "Дата начала"
 # JAVASCRIPT/ID_SUBJECT_FIELD_REQUIRED
 #: JAVASCRIPT/ID_SUBJECT_FIELD_REQUIRED
 msgid "Subject Field is required."
-msgstr "Поле \"Предмет\" обязательное для заполнения."
+msgstr "Поле \"Тема\" обязательное для заполнения."
 
 # TRANSLATION
 # JAVASCRIPT/ID_SUGGEST_NEW_ENTRIES_ALERT
@@ -1445,7 +1445,7 @@ msgstr "История перемещений"
 # JAVASCRIPT/ID_TRIGGERS_VALIDATE_EERR1
 #: JAVASCRIPT/ID_TRIGGERS_VALIDATE_EERR1
 msgid "This trigger can't be deleted due to dependencies."
-msgstr "Данный запуск невозможно удалить из-за взаимозависимостей."
+msgstr "Данный триггер невозможно удалить из-за взаимозависимостей."
 
 # TRANSLATION
 # JAVASCRIPT/ID_UPLOADED_DOCUMENTS
@@ -1457,25 +1457,25 @@ msgstr "Загруженные документы"
 # JAVASCRIPT/ID_UPLOAD_NEW_INPUT
 #: JAVASCRIPT/ID_UPLOAD_NEW_INPUT
 msgid "Upload New Input Document"
-msgstr "Загрузить новый входной документ"
+msgstr "Загрузить новый входящий документ"
 
 # TRANSLATION
 # JAVASCRIPT/ID_UPLOAD_NEW_INPUT_VERSION
 #: JAVASCRIPT/ID_UPLOAD_NEW_INPUT_VERSION
 msgid "Upload New Input Document Version"
-msgstr "Загрузить новую версию входного документа"
+msgstr "Загрузить новую версию входящего документа"
 
 # TRANSLATION
 # JAVASCRIPT/ID_UPLOAD_REPLACE_INPUT
 #: JAVASCRIPT/ID_UPLOAD_REPLACE_INPUT
 msgid "Replace Input Document"
-msgstr "Заменить входной документ"
+msgstr "Заменить входящий документ"
 
 # TRANSLATION
 # JAVASCRIPT/ID_URL_OF_LINK
 #: JAVASCRIPT/ID_URL_OF_LINK
 msgid "Enter the URL for the link"
-msgstr "Ввести URL-адрес  для ссылки"
+msgstr "Ввести URL-адрес для ссылки"
 
 # TRANSLATION
 # JAVASCRIPT/ID_VALIDATED_FIELDS
@@ -1487,13 +1487,13 @@ msgstr "В следующих полях недействительные зна
 # JAVASCRIPT/ID_WEBENTRY
 #: JAVASCRIPT/ID_WEBENTRY
 msgid "In order to use the Web Entry Feature, you must first create a DynaForm and assign it to the selected Task"
-msgstr "Чтобы использовать Характеристику Веб-записи, сначала следует создать DynaForm и присвоить ее выбранной Задаче."
+msgstr "Чтобы использовать Характеристику Веб-входа, сначала следует создать DynaForm и присвоить ее выбранной Задаче."
 
 # TRANSLATION
 # JAVASCRIPT/ID_WEB_ENTRY
 #: JAVASCRIPT/ID_WEB_ENTRY
 msgid "Web Entry"
-msgstr "Веб-запись"
+msgstr "Веб-вход"
 
 # TRANSLATION
 # JAVASCRIPT/ID_WHICH_BLOCK
@@ -1529,19 +1529,19 @@ msgstr "У пользователя есть выполненные или от�
 # JAVASCRIPT/USERS_REASSIGN
 #: JAVASCRIPT/USERS_REASSIGN
 msgid "This user cannot be deleted because he/she still has some pending tasks. <br/><br/>Do you want to reassign these tasks to another user now?"
-msgstr "Данный пользователь не может быть удален, поскольку у него/нее все еще есть задачи, требующие решения. Вы сейчас хотите переназначить  эти задачи другому пользователю?"
+msgstr "Данный пользователь не может быть удален, поскольку у него/нее все еще есть задачи, требующие решения. Вы сейчас хотите переназначить эти задачи другому пользователю?"
 
 # TRANSLATION
 # JAVASCRIPT/WEBEN_ONLY_BALANCEDJS
 #: JAVASCRIPT/WEBEN_ONLY_BALANCEDJS
 msgid "Web Entry only works with tasks which have Cyclical Assignment. Please change the Assignment Rules"
-msgstr "Веб-запись работает только с задачами, которые имеют Циклическое Назначение. Измените Правила Назначения"
+msgstr "Веб-вход работает только с задачами, которые имеют Циклическое Назначение. Измените Правила Назначения"
 
 # TRANSLATION
 # LABEL/ABOUT
 #: LABEL/ABOUT
 msgid "About"
-msgstr "Касательно:"
+msgstr "Касательно"
 
 # TRANSLATION
 # LABEL/ACCOUNT_FROM
@@ -1571,7 +1571,7 @@ msgstr "Отменено"
 # LABEL/CANT_CREATE_FOLDER_A
 #: LABEL/CANT_CREATE_FOLDER_A
 msgid "Can't create folder A"
-msgstr "Невозможно создать папку  A"
+msgstr "Невозможно создать папку A"
 
 # TRANSLATION
 # LABEL/CANT_CREATE_FOLDER_A_FOLDER_WITH_SAME_NAME_ALREADY_EXIST
@@ -1667,7 +1667,7 @@ msgstr "Поле \"Имя\" не должно начинаться с цифры
 # LABEL/DYNAFIELD_PHPNAME_ALREADY_EXIST
 #: LABEL/DYNAFIELD_PHPNAME_ALREADY_EXIST
 msgid "Name error encountered when creating the variable: {0}. Please rename the variable you are creating with a unique name. Avoid differentiating similarly-named variables with only capitalization and '_' characters."
-msgstr "При создании переменной обнаружена ошибка в имени: {0}. Переименуйте переменную, которую вы создаете, на уникальное имя. Избегайте различий с помощью только выделения заглавными буквами и знаков '_'  в похожих именах переменных."
+msgstr "При создании переменной обнаружена ошибка в имени: {0}. Переименуйте переменную, которую вы создаете, на уникальное имя. Избегайте различий с помощью только заглавных букв и знаков '_'  в похожих именах переменных."
 
 # TRANSLATION
 # LABEL/EMAIL_ENGINE
@@ -1697,7 +1697,7 @@ msgstr "как минимум 3 дня"
 # LABEL/ID_ABE_ANSWER_SUBMITTED
 #: LABEL/ID_ABE_ANSWER_SUBMITTED
 msgid "The answer has been submitted. Thank you."
-msgstr "Ответ предоставлен. Спасибо."
+msgstr "Ответ принят. Спасибо."
 
 # TRANSLATION
 # LABEL/ID_ABE_FORM_ALREADY_FILLED
@@ -1709,7 +1709,7 @@ msgstr "Форма уже заполнена и отправлена."
 # LABEL/ID_ABE_INFORMATION_SUBMITTED
 #: LABEL/ID_ABE_INFORMATION_SUBMITTED
 msgid "The information was submitted. Thank you."
-msgstr "Информация предоставлена. Спасибо."
+msgstr "Информация принята. Спасибо."
 
 # TRANSLATION
 # LABEL/ID_ABE_RESPONSE_SENT
@@ -1835,43 +1835,43 @@ msgstr "Деятельность {0}: \"{1}\", имеет недействите
 # LABEL/ID_ACTIVITY_INVALID_ASSIGNMENT_METHOD_FOR_MULTIPLE_INSTANCE_ACTIVITY
 #: LABEL/ID_ACTIVITY_INVALID_ASSIGNMENT_METHOD_FOR_MULTIPLE_INSTANCE_ACTIVITY
 msgid "The activity {0}: \"{1}\", has an invalid assignment method for a multi-instance activity"
-msgstr "Действие {0}: \"{1}\", имеет недействительный способ присваивания  для деятельности с множественными экземплярами"
+msgstr "Действие {0}: \"{1}\", имеет недействительный способ назначения для действий с множественными экземплярами"
 
 # TRANSLATION
 # LABEL/ID_ACTIVITY_INVALID_USER_DATA_VARIABLE_FOR_MULTIPLE_INSTANCE_ACTIVITY
 #: LABEL/ID_ACTIVITY_INVALID_USER_DATA_VARIABLE_FOR_MULTIPLE_INSTANCE_ACTIVITY
 msgid "The activity {0}: \"{1}\", has an invalid user-data in \"{2}\" or this variable doesn't exist for a multi-instance activity"
-msgstr "Действие {0}: \"{1}\", имеет недействительные данные пользователя в \"{2}\"  либо данная переменная не существует для деятельности с множественными экземплярами."
+msgstr "Действие {0}: \"{1}\", имеет недействительные данные пользователя в \"{2}\"  либо данная переменная не существует для действий с множественными экземплярами."
 
 # TRANSLATION
 # LABEL/ID_ACTIVITY_IS_NOT_INITIAL_ACTIVITY
 #: LABEL/ID_ACTIVITY_IS_NOT_INITIAL_ACTIVITY
 msgid "The activity \"{0}\" is not initial activity."
-msgstr "Деятельность \"{0}\" не является первоначальной."
+msgstr "Действие \"{0}\" не является первоначальным."
 
 # TRANSLATION
 # LABEL/ID_ACTORS
 #: LABEL/ID_ACTORS
 msgid "Actors"
-msgstr "Действующие субъекты"
+msgstr "Субъекты"
 
 # TRANSLATION
 # LABEL/ID_ACTORS_ASSIGNED_SUCESSFULLY
 #: LABEL/ID_ACTORS_ASSIGNED_SUCESSFULLY
 msgid "{0} Actors assign to task <b>\"{1}\"</b> successfully!"
-msgstr "{0} Действующим субъектам успешно назначается задача <b>\"{1}\"</b> !"
+msgstr "{0} Субъектам успешно назначена задача <b>\"{1}\"</b> !"
 
 # TRANSLATION
 # LABEL/ID_ACTOR_ALREADY_ASSIGNED
 #: LABEL/ID_ACTOR_ALREADY_ASSIGNED
 msgid "The actor is already assigned to task <b>{0}</b>"
-msgstr "Действующему субъекту уже назначена задача <b>{0}</b>"
+msgstr "Субъекту уже назначена задача <b>{0}</b>"
 
 # TRANSLATION
 # LABEL/ID_ACTOR_ASSIGNED_SUCESSFULLY
 #: LABEL/ID_ACTOR_ASSIGNED_SUCESSFULLY
 msgid "The actor was assigned to task <b>\"{tas_title}\"</b> successfully!"
-msgstr "Действующему субъекту успешно назначена задача <b>\"{tas_title}\"</b> !"
+msgstr "Субъекту успешно назначена задача <b>\"{tas_title}\"</b> !"
 
 # TRANSLATION
 # LABEL/ID_ADD
@@ -1943,7 +1943,7 @@ msgstr "Добавить Заметку"
 # LABEL/ID_ADD_PERMISSION_TO_ROLE
 #: LABEL/ID_ADD_PERMISSION_TO_ROLE
 msgid "Add Permission To Role"
-msgstr "Добавить Разрешение в Функцию"
+msgstr "Добавить Разрешение в роль"
 
 # TRANSLATION
 # LABEL/ID_ADD_ROW
@@ -1955,7 +1955,7 @@ msgstr "Добавить строку"
 # LABEL/ID_ADD_SUB_PROCESS
 #: LABEL/ID_ADD_SUB_PROCESS
 msgid "[LABEL/ID_ADD_SUB_PROCESS] Add Sub-Process"
-msgstr "Добавить подпроцесс"
+msgstr "Добавить субпроцесс"
 
 # TRANSLATION
 # LABEL/ID_ADD_TASK
@@ -1997,13 +1997,13 @@ msgstr "Специальное назначение"
 # LABEL/ID_ADHOC_GROUPS_ACTORS
 #: LABEL/ID_ADHOC_GROUPS_ACTORS
 msgid "Ad Hoc Groups Actors"
-msgstr "Действующие субъекты специальных групп"
+msgstr "Субъекты специальных групп"
 
 # TRANSLATION
 # LABEL/ID_ADHOC_USERS_ACTORS
 #: LABEL/ID_ADHOC_USERS_ACTORS
 msgid "Ad hoc Users Actors"
-msgstr "Действующие субъекты специальных пользователей"
+msgstr "Субъекты специальных пользователей"
 
 # TRANSLATION
 # LABEL/ID_ADMIN
@@ -2021,7 +2021,7 @@ msgstr "Роль администратора нельзя изменить!"
 # LABEL/ID_ADMINS_CANT_USE_UXS
 #: LABEL/ID_ADMINS_CANT_USE_UXS
 msgid "Administrators users cannot use this User Experience."
-msgstr "Администраторы-пользователи не могут использовать данный Опыт Пользователя."
+msgstr "Администраторы не могут использовать данный интерфейс."
 
 # TRANSLATION
 # LABEL/ID_ADMIN_PASSWORD
@@ -2039,13 +2039,13 @@ msgstr "Пароль Администратора"
 # LABEL/ID_ADMIN_PLUGIN_TIP
 #: LABEL/ID_ADMIN_PLUGIN_TIP
 msgid "Admin the selected plugin"
-msgstr "Выбранный плагин Администратора"
+msgstr "Администрирование выбранного плагина"
 
 # TRANSLATION
 # LABEL/ID_ADMIN_USERNAME
 #: LABEL/ID_ADMIN_USERNAME
 msgid "Admin Username"
-msgstr "Имя пользователя Администратора"
+msgstr "Имя Администратора"
 
 # TRANSLATION
 # LABEL/ID_ADVANCEDSEARCH
@@ -2057,13 +2057,13 @@ msgstr "Расширенный Поиск"
 # LABEL/ID_AD_HOC_ACTORS
 #: LABEL/ID_AD_HOC_ACTORS
 msgid "Ad Hoc Actors"
-msgstr "Специальные Действующие субъекты"
+msgstr "Специальные Субъекты"
 
 # TRANSLATION
 # LABEL/ID_AFFECTED_GROUPS
 #: LABEL/ID_AFFECTED_GROUPS
 msgid "Affected Groups"
-msgstr "Группы, находящиеся под влиянием"
+msgstr "Задействованные группы"
 
 # TRANSLATION
 # LABEL/ID_AFTER
@@ -2099,7 +2099,7 @@ msgstr "Сбой коммуникации Ajax"
 # LABEL/ID_ALERT
 #: LABEL/ID_ALERT
 msgid "Alert"
-msgstr "Сигнал тревоги"
+msgstr "Внимание"
 
 # TRANSLATION
 # LABEL/ID_ALERT_MESSAGE
@@ -2159,7 +2159,7 @@ msgstr "Все Переменные"
 # LABEL/ID_ALL_WORKSPACES
 #: LABEL/ID_ALL_WORKSPACES
 msgid "All Workspaces"
-msgstr "Все Рабочие места"
+msgstr "Все Рабочие пространства"
 
 # TRANSLATION
 # LABEL/ID_ALREADY_ASSIGNED
@@ -2243,7 +2243,7 @@ msgstr "Сохранить изменения"
 # LABEL/ID_APP_MSG_BODY
 #: LABEL/ID_APP_MSG_BODY
 msgid "Body"
-msgstr "Текст документа"
+msgstr "Текст"
 
 # TRANSLATION
 # LABEL/ID_APP_UID
@@ -2303,7 +2303,7 @@ msgstr "НАЗНАЧЕННЫЕ РАЗРЕШЕНИЯ ДЛЯ"
 # LABEL/ID_ASSIGNED_TO
 #: LABEL/ID_ASSIGNED_TO
 msgid "Assigned To"
-msgstr "Назначенные (кому)"
+msgstr "Назначено"
 
 # TRANSLATION
 # LABEL/ID_ASSIGNED_USERS
@@ -2351,7 +2351,7 @@ msgstr "Назначить всех Пользователей"
 # LABEL/ID_ASSIGN_AUTHENTICATION_SOURCE
 #: LABEL/ID_ASSIGN_AUTHENTICATION_SOURCE
 msgid "Assign Authentication Source"
-msgstr "Назначить Источник Аутентификационной информации"
+msgstr "Назначить источник прав доступа"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_GROUP
@@ -2369,7 +2369,7 @@ msgstr "Назначить Групповую Задачу"
 # LABEL/ID_ASSIGN_GROUP_TO
 #: LABEL/ID_ASSIGN_GROUP_TO
 msgid "Assign group to"
-msgstr "Назначить группу (кому)"
+msgstr "Назначить группу"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_MANAGER_TO_DEPARTAMENT
@@ -2387,25 +2387,25 @@ msgstr "Назначить пользователя"
 # LABEL/ID_ASSIGN_RULES
 #: LABEL/ID_ASSIGN_RULES
 msgid "Error: There is a problem with the next tasks of this process. One of them has manual assignment. Manual assignment shouldn't be used with sub-processes"
-msgstr "Ошибка: Существует проблема со следующими задачами в данном процессе. Одна из них имеет ручное присваивание. Ручное присваивание не должно использоваться с подпроцессами."
+msgstr "Ошибка: Существует проблема со следующими задачами в данном процессе. Одна из них имеет ручное назначение. Ручное назначение не должно использоваться с субпроцессами."
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_SCREEN
 #: LABEL/ID_ASSIGN_SCREEN
 msgid "Assign Screen"
-msgstr "Присвоить Экран"
+msgstr "Назначить Экран"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_SUPERVISOR_DYNAFORM
 #: LABEL/ID_ASSIGN_SUPERVISOR_DYNAFORM
 msgid "Assign Supervisor Dynaform"
-msgstr "Назначить Dynaform Контролера"
+msgstr "Назначить главную Dynaform"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_SUPERVISOR_INPUT
 #: LABEL/ID_ASSIGN_SUPERVISOR_INPUT
 msgid "Assign Supervisor Input"
-msgstr "Назначить Входное значение Контролера"
+msgstr "Назначить главный вход"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_TASK
@@ -2423,19 +2423,19 @@ msgstr "Назначить роль"
 # LABEL/ID_ASSIGN_TO
 #: LABEL/ID_ASSIGN_TO
 msgid "Assign To"
-msgstr "Назначить (Кому)"
+msgstr "Назначить"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_TRIGGER
 #: LABEL/ID_ASSIGN_TRIGGER
 msgid "Assign Trigger"
-msgstr "Назначить запуск"
+msgstr "Назначить триггер"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_TRIGGERS
 #: LABEL/ID_ASSIGN_TRIGGERS
 msgid "Assign Triggers"
-msgstr "Назначить запуски"
+msgstr "Назначить триггеры"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_USERGROUPS
@@ -2453,7 +2453,7 @@ msgstr "Назначить Пользователей"
 # LABEL/ID_ASSIGN_USER_TASK
 #: LABEL/ID_ASSIGN_USER_TASK
 msgid "Assign User Task"
-msgstr "Назначить Задачу Пользователя"
+msgstr "Назначить Задачу Пользователю"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_USER_TO_DEPARTAMENT
@@ -2471,19 +2471,19 @@ msgstr "Назначить Пользователей Группе"
 # LABEL/ID_ASSIGN_USER_TO_ROLE
 #: LABEL/ID_ASSIGN_USER_TO_ROLE
 msgid "Assign Users To Role"
-msgstr "Назначить Пользователей к функции"
+msgstr "Назначить роли Пользователей"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_VARIABLES_IN
 #: LABEL/ID_ASSIGN_VARIABLES_IN
 msgid "Assign Variables In"
-msgstr "Назначение Переменных в"
+msgstr "Назначить входящие переменные"
 
 # TRANSLATION
 # LABEL/ID_ASSIGN_VARIABLES_OUT
 #: LABEL/ID_ASSIGN_VARIABLES_OUT
 msgid "Assign Variables Out"
-msgstr "Назначение Переменных из"
+msgstr "Назначить исходящие переменные"
 
 # TRANSLATION
 # LABEL/ID_ATTACH
@@ -2513,7 +2513,7 @@ msgstr "Атрибут {0} имеет недопустимый элемент (�
 # LABEL/ID_AT_RISK
 #: LABEL/ID_AT_RISK
 msgid "At Risk"
-msgstr "В опасности"
+msgstr "В зоне риска"
 
 # TRANSLATION
 # LABEL/ID_AUDITLOG_DISPLAY
@@ -2859,7 +2859,7 @@ msgstr "Кнопка"
 # LABEL/ID_BUY_NOW
 #: LABEL/ID_BUY_NOW
 msgid "Buy now"
-msgstr "Купить сечас"
+msgstr "Купить сейчас"
 
 # TRANSLATION
 # LABEL/ID_CACHE_BTN_BUILD
@@ -3135,7 +3135,7 @@ msgstr "НЕВОЗМОЖНО ИМПОРТИРОВАТЬ"
 # LABEL/ID_CANNOT_REMOVE_TEMPLATE_EMAIL_EVENT
 #: LABEL/ID_CANNOT_REMOVE_TEMPLATE_EMAIL_EVENT
 msgid "You can not delete the template {0} because it has a relationship with Email Event"
-msgstr "Вы не можете удалить шаблон {0}, поскольку он имеет отношение к имейл эвенту"
+msgstr "Вы не можете удалить шаблон {0}, поскольку он имеет отношение к событию отправки email"
 
 # TRANSLATION
 # LABEL/ID_CANT_DELETE_DEPARTMENT_HAS_CHILDREN
@@ -41971,7 +41971,7 @@ msgstr "Файл"
 # setup/emailSetupTest.xml
 #: submit - BTN_SUBMIT
 msgid "Send Email"
-msgstr "Отправить имейл"
+msgstr "Отправить email"
 
 # setup/emails.xml?THETITLE
 # setup/emails.xml

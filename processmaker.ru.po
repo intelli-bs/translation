@@ -2537,7 +2537,7 @@ msgstr "Если эта опция включена, все изменения, 
 # LABEL/ID_AUDIT_LOG_DETAILS_2
 #: LABEL/ID_AUDIT_LOG_DETAILS_2
 msgid "The user will be able to see those changes in the Audit Log option in the Logs menu."
-msgstr "Пользователь сможет увидеть те изменения в опции Журнала Аудита  в меню Журналов."
+msgstr "Пользователь сможет увидеть те изменения в опции Журнала Аудита в меню Журналов."
 
 # TRANSLATION
 # LABEL/ID_AUDIT_LOG_DISABLED
@@ -2621,7 +2621,7 @@ msgstr "Источники Аутентификации"
 # LABEL/ID_AUTH_SOURCE_FEATURE_MISSING
 #: LABEL/ID_AUTH_SOURCE_FEATURE_MISSING
 msgid "The feature related to this authentication source was disabled. Please consult your system administrator."
-msgstr "Характеристика, относящаяся к данному источнику аутентификации, была отключена. Проконсультируйтесь с вашим системным администратором."
+msgstr "Свойство, относящееся к данному источнику аутентификации, было отключено. Проконсультируйтесь с вашим системным администратором."
 
 # TRANSLATION
 # LABEL/ID_AUTH_SOURCE_MISSING
@@ -2633,7 +2633,7 @@ msgstr "Плагин, относящийся к данному источник�
 # LABEL/ID_AUTO_INCREMENT
 #: LABEL/ID_AUTO_INCREMENT
 msgid "Auto Increment"
-msgstr "Автоматическое увеличение индекса"
+msgstr "Автоматическое увеличение"
 
 # TRANSLATION
 # LABEL/ID_AUTO_PREFIX
@@ -2687,7 +2687,7 @@ msgstr "ДОСТУПНЫЕ РАЗРЕШЕНИЯ"
 # LABEL/ID_AVAILABLE_TRIGGERS
 #: LABEL/ID_AVAILABLE_TRIGGERS
 msgid "Available Triggers"
-msgstr "Доступные Запуски"
+msgstr "Доступные триггеры"
 
 # TRANSLATION
 # LABEL/ID_AVAILABLE_USERS
@@ -2729,25 +2729,25 @@ msgstr "Неверный Запрос!"
 # LABEL/ID_BARS
 #: LABEL/ID_BARS
 msgid "Bars"
-msgstr "Строки"
+msgstr "Столбцы"
 
 # TRANSLATION
 # LABEL/ID_BASE_DN
 #: LABEL/ID_BASE_DN
 msgid "Base DN"
-msgstr "База поиска"
+msgstr "Базовый DN"
 
 # TRANSLATION
 # LABEL/ID_BATCH_ROUTING
 #: LABEL/ID_BATCH_ROUTING
 msgid "Batch Routing"
-msgstr "Маршрутизация Партий"
+msgstr "Групповая маршрутизация"
 
 # TRANSLATION
 # LABEL/ID_BATCH_ROUTING_TABLE_ALREADY_EXISTS
 #: LABEL/ID_BATCH_ROUTING_TABLE_ALREADY_EXISTS
 msgid "The specified batch routing table already exists. The existing table will be used to store the batch routing information. Please be sure that the table has the correct batch routing configuration."
-msgstr "Указанная таблица маршрутизации партий уже существует. Существующая таблица будет использоваться для хранения информации о маршрутизации партий. Убедитесь, что таблица имеет правильную конфигурацию маршрутизации партий."
+msgstr "Указанная таблица групповой маршрутизации уже существует. Существующая таблица будет использоваться для хранения информации о групповой маршрутизации. Убедитесь, что таблица имеет правильную конфигурацию групповой маршрутизации."
 
 # TRANSLATION
 # LABEL/ID_BEFORE
@@ -2777,7 +2777,7 @@ msgstr "До Обновления"
 # LABEL/ID_BEHAVIOUR
 #: LABEL/ID_BEHAVIOUR
 msgid "Behaviour"
-msgstr "Линия поведения"
+msgstr "Поведение"
 
 # TRANSLATION
 # LABEL/ID_BLANK_DYNAFORM
@@ -2823,7 +2823,7 @@ msgstr "Возникла проблема в определении процес
 # LABEL/ID_BREAK_DW_PROCESS
 #: LABEL/ID_BREAK_DW_PROCESS
 msgid "were lost by a connection problem."
-msgstr "были потеряны в связи с проблемой."
+msgstr "были потеряны из-за проблемы со связью."
 
 # TRANSLATION
 # LABEL/ID_BROWSE
@@ -2847,7 +2847,7 @@ msgstr "Просмотр библиотеки"
 # LABEL/ID_BUILD_CACHE
 #: LABEL/ID_BUILD_CACHE
 msgid "Build Cache"
-msgstr "Кэш построения"
+msgstr "Кэш компиляции"
 
 # TRANSLATION
 # LABEL/ID_BUTTON
@@ -2865,13 +2865,13 @@ msgstr "Купить сейчас"
 # LABEL/ID_CACHE_BTN_BUILD
 #: LABEL/ID_CACHE_BTN_BUILD
 msgid "[LABEL/ID_CACHE_BTN_BUILD] Build Cache"
-msgstr "Кэш построения"
+msgstr "Кэш компиляции"
 
 # TRANSLATION
 # LABEL/ID_CACHE_BTN_SETUP_PASSWRD
 #: LABEL/ID_CACHE_BTN_SETUP_PASSWRD
 msgid "Setup Password"
-msgstr "Пароль для настройки"
+msgstr "Установить пароль"
 
 # TRANSLATION
 # LABEL/ID_CACHE_BTN_SETUP_SESSION
@@ -3009,7 +3009,7 @@ msgstr "Обслуживание сессий"
 # LABEL/ID_CACHE_TITLE_INFO
 #: LABEL/ID_CACHE_TITLE_INFO
 msgid "Workflow Applications Cache Info"
-msgstr "Требования к кэшу рабочих процессов"
+msgstr "Информация кэша рабочих процессов"
 
 # TRANSLATION
 # LABEL/ID_CACHE_USER
@@ -3147,7 +3147,7 @@ msgstr "Невозможно удалить отдел, потому что он
 # LABEL/ID_CANT_DELETE_DEPARTMENT_HAS_USERS
 #: LABEL/ID_CANT_DELETE_DEPARTMENT_HAS_USERS
 msgid "Department cannot be deleted while it has assigned users."
-msgstr "Отдел не может быть удален, пока не назначены пользователи."
+msgstr "Отдел не может быть удален, пока ему назначены пользователи."
 
 # TRANSLATION
 # LABEL/ID_CANT_RESOLVE_APPLICATION
@@ -3249,7 +3249,7 @@ msgstr "Демо-образец задания"
 # LABEL/ID_CASES
 #: LABEL/ID_CASES
 msgid "HOME"
-msgstr "ГЛАВНЫЙ ЭКРАН"
+msgstr "ГЛАВНАЯ СТРАНИЦА"
 
 # TRANSLATION
 # LABEL/ID_CASES1
@@ -3309,7 +3309,7 @@ msgstr "Задача"
 # LABEL/ID_CASESLIST_APP_THREAD_INDEX
 #: LABEL/ID_CASESLIST_APP_THREAD_INDEX
 msgid "Thread Index"
-msgstr "Список веток"
+msgstr "Индекс потока"
 
 # TRANSLATION
 # LABEL/ID_CASESLIST_APP_TITLE
@@ -3339,13 +3339,13 @@ msgstr "Индекс Задания"
 # LABEL/ID_CASESLIST_DEL_PRIORITY
 #: LABEL/ID_CASESLIST_DEL_PRIORITY
 msgid "Priority"
-msgstr "Очередность"
+msgstr "Приоритетность"
 
 # TRANSLATION
 # LABEL/ID_CASESLIST_DEL_TASK_DUE_DATE
 #: LABEL/ID_CASESLIST_DEL_TASK_DUE_DATE
 msgid "Due Date"
-msgstr "Срок оплаты"
+msgstr "Срок"
 
 # TRANSLATION
 # LABEL/ID_CASESLIST_FIELD_COMPLETE
@@ -3375,13 +3375,13 @@ msgstr "Перезапустите ярлыки с системными поля
 # LABEL/ID_CASESLIST_FIELD_RESET
 #: LABEL/ID_CASESLIST_FIELD_RESET
 msgid "Restart everything with the system fields"
-msgstr "Перезагрузите все системные поля"
+msgstr "Перезагрузите все с системными полями"
 
 # TRANSLATION
 # LABEL/ID_CASESLIST_FIELD_RESET_ID
 #: LABEL/ID_CASESLIST_FIELD_RESET_ID
 msgid "Restart everything with the system fields, with the ID of the label for its translation"
-msgstr "Перезагрузите все с помощью системных полей"
+msgstr "Перезагрузите все с системными полями, с ID перевода"
 
 # TRANSLATION
 # LABEL/ID_CASESREASSIGN
@@ -3393,7 +3393,7 @@ msgstr "У вас все еще есть задания для переназн�
 # LABEL/ID_CASES_ASSIGNED_BY
 #: LABEL/ID_CASES_ASSIGNED_BY
 msgid "Cases to be Assigned by"
-msgstr "Назначенные задания"
+msgstr "Задания для назначения"
 
 # TRANSLATION
 # LABEL/ID_CASES_DATE_MASK
@@ -3405,13 +3405,13 @@ msgstr "Формат даты"
 # LABEL/ID_CASES_INCORRECT_INFORMATION
 #: LABEL/ID_CASES_INCORRECT_INFORMATION
 msgid "Incorrect or unavailable information about this case: {0}"
-msgstr "Неверная или недоступная информация об этом залании: {0}"
+msgstr "Неверная или недоступная информация об этом задании: {0}"
 
 # TRANSLATION
 # LABEL/ID_CASES_INPUT_DOES_NOT_EXIST
 #: LABEL/ID_CASES_INPUT_DOES_NOT_EXIST
 msgid "This input document with app_doc_uid: {0} does not exist!"
-msgstr "Этот входной документ с app_doc_uid: {0} не существует!"
+msgstr "Этот входящий документ с app_doc_uid: {0} не существует!"
 
 # TRANSLATION
 # LABEL/ID_CASES_INPUT_FILENAME_DOES_NOT_EXIST
@@ -3423,7 +3423,7 @@ msgstr "Это имя файла не существует!"
 # LABEL/ID_CASES_LIST
 #: LABEL/ID_CASES_LIST
 msgid "Cases Lists"
-msgstr "Списки операторов ветвления"
+msgstr "Списки заданий"
 
 # TRANSLATION
 # LABEL/ID_CASES_LIST_FIELDS

@@ -3159,7 +3159,7 @@ msgstr "Не удается разрешить идентификатор при
 # LABEL/ID_CANT_SAVE_TRIGGER
 #: LABEL/ID_CANT_SAVE_TRIGGER
 msgid "A trigger with the same name already exists in this process."
-msgstr "Запуск с этим именем уже существует в этом процессе."
+msgstr "Триггер с этим именем уже существует в этом процессе."
 
 # TRANSLATION
 # LABEL/ID_CAN_NOT_BE_EMPTY
@@ -3519,7 +3519,7 @@ msgstr "Заметка успешно отправлена"
 # LABEL/ID_CASES_NOT_START
 #: LABEL/ID_CASES_NOT_START
 msgid "You can't start a case because you don't have a starting task assigned"
-msgstr "Вы не можете запустить задание, потому что у Вас нет заданной задачи запуска"
+msgstr "У вас нет доступных для запуска процессов"
 
 # TRANSLATION
 # LABEL/ID_CASES_NUM
@@ -3531,7 +3531,7 @@ msgstr "# Задания"
 # LABEL/ID_CASES_OUTPUT_DOES_NOT_EXIST
 #: LABEL/ID_CASES_OUTPUT_DOES_NOT_EXIST
 msgid "This output document with app_doc_id: {0} does not exist!"
-msgstr "Этот выходной документ с app_doc_id: {0} не существует!"
+msgstr "Этот исходящий документ с app_doc_id: {0} не существует!"
 
 # TRANSLATION
 # LABEL/ID_CASES_ROW_NUMBER
@@ -3573,7 +3573,7 @@ msgstr "Остановлено"
 # LABEL/ID_CASES_STATUS_TO_DO
 #: LABEL/ID_CASES_STATUS_TO_DO
 msgid "To Do"
-msgstr "Сделать"
+msgstr "В процессе"
 
 # TRANSLATION
 # LABEL/ID_CASES_STEPS
@@ -3831,7 +3831,7 @@ msgstr "Номер Задания"
 # LABEL/ID_CASE_OUTPUT_DOCUMENT_DOES_NOT_EXIST
 #: LABEL/ID_CASE_OUTPUT_DOCUMENT_DOES_NOT_EXIST
 msgid "This output document with {0}: {1} does not exist."
-msgstr "Этот выходной документ с {0}: {1} не существует."
+msgstr "Этот исходящий документ с {0}: {1} не существует."
 
 # TRANSLATION
 # LABEL/ID_CASE_PAUSED_SUCCESSFULLY
@@ -3921,7 +3921,7 @@ msgstr "Начать задание"
 # LABEL/ID_CASE_STOPPED_TRIGGER
 #: LABEL/ID_CASE_STOPPED_TRIGGER
 msgid "The case has not stopped due to its trigger."
-msgstr "Задание было остановлено из-за его запуска"
+msgstr "Задание было остановлено из-за триггера"
 
 # TRANSLATION
 # LABEL/ID_CASE_TITLE
@@ -4821,7 +4821,7 @@ msgstr "Вы хотите создать новый UID для этого про
 # LABEL/ID_CREATE_OUTPUT_DOCUMENT
 #: LABEL/ID_CREATE_OUTPUT_DOCUMENT
 msgid "Create new Output Document"
-msgstr "Создать новый выходной документ"
+msgstr "Создать новый исходящий документ"
 
 # TRANSLATION
 # LABEL/ID_CREATE_PMTABLE
@@ -4869,7 +4869,7 @@ msgstr "Создать подотдел"
 # LABEL/ID_CREATE_TRIGGER
 #: LABEL/ID_CREATE_TRIGGER
 msgid "Create New trigger"
-msgstr "Cоздать новый запуск"
+msgstr "Cоздать новый триггер"
 
 # TRANSLATION
 # LABEL/ID_CREATE_USER
@@ -5019,13 +5019,13 @@ msgstr "Пользовательский список заданий"
 # LABEL/ID_CUSTOM_TRIGGER
 #: LABEL/ID_CUSTOM_TRIGGER
 msgid "Custom Trigger"
-msgstr "Пользовательский запуск"
+msgstr "Пользовательский триггер"
 
 # TRANSLATION
 # LABEL/ID_CUSTOM_TRIGGER_DESCRIPTION
 #: LABEL/ID_CUSTOM_TRIGGER_DESCRIPTION
 msgid "[LABEL/ID_CUSTOM_TRIGGER_DESCRIPTION] Custom Trigger"
-msgstr "Пользовательский запуск"
+msgstr "Пользовательский триггер"
 
 # TRANSLATION
 # LABEL/ID_CYCLIC_ASSIGNMENT
@@ -5835,7 +5835,7 @@ msgstr "Вы не можете отменить назначение менед�
 # LABEL/ID_DELETE_OUTPUT_DOCUMENT
 #: LABEL/ID_DELETE_OUTPUT_DOCUMENT
 msgid "Delete Output Document"
-msgstr "Удалить выходной документ"
+msgstr "Удалить исходящий документ"
 
 # TRANSLATION
 # LABEL/ID_DELETE_PERMISSION
@@ -5949,7 +5949,7 @@ msgstr "Удалить выбранные переводы?"
 # LABEL/ID_DELETE_TRIGGER
 #: LABEL/ID_DELETE_TRIGGER
 msgid "Delete Trigger"
-msgstr "Удалить запуск"
+msgstr "Удалить триггер"
 
 # TRANSLATION
 # LABEL/ID_DELETE_USER
@@ -6279,13 +6279,13 @@ msgstr "Процесс «{0}» имеет следующий нежелател�
 # LABEL/ID_DISABLED_CODE_TRIGGER
 #: LABEL/ID_DISABLED_CODE_TRIGGER
 msgid "The trigger has the following unwanted code (this code should be removed): {0}"
-msgstr "Запуск имеет следующий нежелательный код (этот код следует удалить): {0}"
+msgstr "Триггер имеет следующий нежелательный код (этот код следует удалить): {0}"
 
 # TRANSLATION
 # LABEL/ID_DISABLED_CODE_TRIGGER_TO_EXECUTE
 #: LABEL/ID_DISABLED_CODE_TRIGGER_TO_EXECUTE
 msgid "The following triggers has unwanted code (these triggers are not executed): {0}"
-msgstr "Следующие запуски имеют нежелательный код (эти запуски не выполняются): {0}"
+msgstr "Следующие триггеры имеют нежелательный код (эти триггеры не выполняются): {0}"
 
 # TRANSLATION
 # LABEL/ID_DISABLE_ACTION
@@ -6495,7 +6495,7 @@ msgstr "Вы можете загрузить его вручную здесь"
 # LABEL/ID_DOWN_TRIGGER
 #: LABEL/ID_DOWN_TRIGGER
 msgid "Down Trigger"
-msgstr "Вниз запуск"
+msgstr "Вниз триггер"
 
 # TRANSLATION
 # LABEL/ID_DRAFT
@@ -6507,7 +6507,7 @@ msgstr "Черновик"
 # LABEL/ID_DRIVE_HELP_ENABLE
 #: LABEL/ID_DRIVE_HELP_ENABLE
 msgid "When this option is enabled, all input, output and attached documents generated in your processes can be stored in Google Drive."
-msgstr "Если этот параметр включен, все входящие, выходные и прикрепленные документы, созданные в ваших процессах, могут быть сохранены на Google Диске."
+msgstr "Если этот параметр включен, все входящие, исходящие и прикрепленные документы, созданные в ваших процессах, могут быть сохранены на Google Диске."
 
 # TRANSLATION
 # LABEL/ID_DROP_DATABASE_EXISTS
@@ -6825,7 +6825,7 @@ msgstr "Редактировать функцию"
 # LABEL/ID_EDIT_TRIGGERS
 #: LABEL/ID_EDIT_TRIGGERS
 msgid "Edit Trigger"
-msgstr "Редактировать запуск"
+msgstr "Редактировать триггер"
 
 # TRANSLATION
 # LABEL/ID_EDIT_USERS
@@ -7761,7 +7761,7 @@ msgstr "выполнено"
 # LABEL/ID_EXECUTE_TRIGGER
 #: LABEL/ID_EXECUTE_TRIGGER
 msgid "Execute Trigger"
-msgstr "Выполнить запуск"
+msgstr "Выполнить триггер"
 
 # TRANSLATION
 # LABEL/ID_EXECUTION
@@ -8001,7 +8001,7 @@ msgstr "Неудача"
 # LABEL/ID_FALSE
 #: LABEL/ID_FALSE
 msgid "FALSE"
-msgstr "ЛОЖНЫЙ"
+msgstr "FALSE"
 
 # TRANSLATION
 # LABEL/ID_FIELDS
@@ -9825,7 +9825,7 @@ msgstr "Исходный документ успешно удален из пр�
 # LABEL/ID_INPUT_UNAVAILABLE
 #: LABEL/ID_INPUT_UNAVAILABLE
 msgid "No Input Documents are available. All Input Documents have already been assigned."
-msgstr "Нет входных документов. Все входные документы уже назначены."
+msgstr "Нет входящих документов. Все входящие документы уже назначены."
 
 # TRANSLATION
 # LABEL/ID_INPUT_UPDATE
@@ -10161,7 +10161,7 @@ msgstr "Следующие строки стартовых часов недей
 # LABEL/ID_INVALID_TRIGGER
 #: LABEL/ID_INVALID_TRIGGER
 msgid "Invalid trigger '{TRIGGER_INDEX}'"
-msgstr "Недопустимый запуск {TRIGGER_INDEX}"
+msgstr "Недопустимый триггер {TRIGGER_INDEX}"
 
 # TRANSLATION
 # LABEL/ID_INVALID_VALUE
@@ -10647,7 +10647,7 @@ msgstr "Настройки входа в систему"
 # LABEL/ID_LOGIN_TITLE
 #: LABEL/ID_LOGIN_TITLE
 msgid "Please enter your credentials below"
-msgstr "Введите ваши учетные данные ниже"
+msgstr "Введите Ваши учетные данные"
 
 # TRANSLATION
 # LABEL/ID_LOGIN_WITH_FACEBOOK
@@ -11115,7 +11115,7 @@ msgstr "подзаголовок"
 # LABEL/ID_MAFE_0c06d45a9f58aba5f4c4d50b03f65b04
 #: LABEL/ID_MAFE_0c06d45a9f58aba5f4c4d50b03f65b04
 msgid "- Select Trigger -"
-msgstr "- Выберите Запуск -"
+msgstr "- Выберите триггер -"
 
 # TRANSLATION
 # LABEL/ID_MAFE_0c2f3adf2a48bab3adb470f4da57f3d0
@@ -11157,7 +11157,7 @@ msgstr "Вы хотите удалить этот входной докумен�
 # LABEL/ID_MAFE_0df44e2363fd51047d55635ae4130592
 #: LABEL/ID_MAFE_0df44e2363fd51047d55635ae4130592
 msgid "Insert the title of the new trigger"
-msgstr "Вставьте заголовок нового запуска"
+msgstr "Вставьте заголовок нового триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_0df8347776dbb1c637387ec287c7966f
@@ -11181,7 +11181,7 @@ msgstr "Предупреждение"
 # LABEL/ID_MAFE_0ecb335cc64ebaab517d0b3b2afa5c12
 #: LABEL/ID_MAFE_0ecb335cc64ebaab517d0b3b2afa5c12
 msgid "Trigger updated successfully"
-msgstr "Запуск обновлен успешно"
+msgstr "Триггер обновлен успешно"
 
 # TRANSLATION
 # LABEL/ID_MAFE_0fc962c43d228657cb0afd29eb815d15
@@ -11409,7 +11409,7 @@ msgstr "Переменные"
 # LABEL/ID_MAFE_172ac8a8053b32e15c602be955a2f098
 #: LABEL/ID_MAFE_172ac8a8053b32e15c602be955a2f098
 msgid "Execute a trigger when a case is cancelled"
-msgstr "Выполнить запуск, когда задание отменено"
+msgstr "Выполнить триггер, когда задание отменено"
 
 # TRANSLATION
 # LABEL/ID_MAFE_174e4ee3d13ed11b4d96ac457dc86aa0
@@ -11439,13 +11439,13 @@ msgstr "Выбрать Dynaform"
 # LABEL/ID_MAFE_181a78592654ed602ed454e019302f51
 #: LABEL/ID_MAFE_181a78592654ed602ed454e019302f51
 msgid "Do you want to save the changes? This Trigger will be saved like a custom Trigger."
-msgstr "Вы хотите сохранить изменения? Этот запуск будет сохранен как пользовательский запуск."
+msgstr "Вы хотите сохранить изменения? Этот триггер будет сохранен как пользовательский."
 
 # TRANSLATION
 # LABEL/ID_MAFE_1825d84c97732e2ce3d43b28cee08b58
 #: LABEL/ID_MAFE_1825d84c97732e2ce3d43b28cee08b58
 msgid "There are problems updating the trigger, please try again."
-msgstr "Проблемы с обновлением запуска, пожалуйста, попытайтесь еще раз."
+msgstr "Проблемы с обновлением триггера, пожалуйста, попытайтесь еще раз."
 
 # TRANSLATION
 # LABEL/ID_MAFE_185b7133db22230701a857c059360cc2
@@ -11583,7 +11583,7 @@ msgstr "расширения файла"
 # LABEL/ID_MAFE_1ce7fd4a5bc68650a82e2b254c9137c7
 #: LABEL/ID_MAFE_1ce7fd4a5bc68650a82e2b254c9137c7
 msgid "Trigger assigned successfully."
-msgstr "Запуск назначен успешно"
+msgstr "Триггер назначен успешно"
 
 # TRANSLATION
 # LABEL/ID_MAFE_1d1ded75bd737a314cd8e39f4a715ab9
@@ -11781,7 +11781,7 @@ msgstr "- Никакой -"
 # LABEL/ID_MAFE_23aa72823f3110b89a4791763ed6ca3f
 #: LABEL/ID_MAFE_23aa72823f3110b89a4791763ed6ca3f
 msgid "Trigger (s)"
-msgstr "Запуск (s)"
+msgstr "Триггер (s)"
 
 # TRANSLATION
 # LABEL/ID_MAFE_23faca394186e73f3446b5ff25802885
@@ -11793,7 +11793,7 @@ msgstr "Менеджер файлов процессов"
 # LABEL/ID_MAFE_2421dc6680ce1aaf6cea69494a39df47
 #: LABEL/ID_MAFE_2421dc6680ce1aaf6cea69494a39df47
 msgid "Do you want to delete this Output Document?"
-msgstr "Вы хотите удалить этот выходной документ?"
+msgstr "Вы хотите удалить этот исходящий документ?"
 
 # TRANSLATION
 # LABEL/ID_MAFE_244d5dea1c18e5cd0eb873b030e1d824
@@ -11979,7 +11979,7 @@ msgstr "Максимальный размер файла (используйте
 # LABEL/ID_MAFE_2a5b8b5644c4187548c11f524fe09355
 #: LABEL/ID_MAFE_2a5b8b5644c4187548c11f524fe09355
 msgid "OutPut Document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # TRANSLATION
 # LABEL/ID_MAFE_2a6eaecb26ccc7adbad36a3dd054a82d
@@ -12261,7 +12261,7 @@ msgstr "формула"
 # LABEL/ID_MAFE_35f251dbf805f6e532d579044aec1882
 #: LABEL/ID_MAFE_35f251dbf805f6e532d579044aec1882
 msgid "Input Document saved successfully"
-msgstr "Входной документ сохранен успешно"
+msgstr "Входящий документ сохранен успешно"
 
 # TRANSLATION
 # LABEL/ID_MAFE_36384a9ea3ec791e6bd4ab6b36f2ff2a
@@ -12315,7 +12315,7 @@ msgstr "N/A"
 # LABEL/ID_MAFE_38c4f766faf4ef7214cf68aa1d59a2be
 #: LABEL/ID_MAFE_38c4f766faf4ef7214cf68aa1d59a2be
 msgid "There are problems getting the list of triggers."
-msgstr "Есть проблемы с получением списка запусков"
+msgstr "Есть проблемы с получением списка триггеров"
 
 # TRANSLATION
 # LABEL/ID_MAFE_38f105ec27a415dcfb1905e038338b44
@@ -12351,7 +12351,7 @@ msgstr "Событие таймера"
 # LABEL/ID_MAFE_3a17e95bfbc888f592433fb1bb5b5346
 #: LABEL/ID_MAFE_3a17e95bfbc888f592433fb1bb5b5346
 msgid "Create Predefined Trigger"
-msgstr "Создать предопределенный запуск"
+msgstr "Создать предопределенный триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_3a3678eaaa8b058dc89a4c3aba8ff52e
@@ -12441,7 +12441,7 @@ msgstr "Событие электронной почты редактирова�
 # LABEL/ID_MAFE_3cfd943f7de9aa2480da0c30735bb031
 #: LABEL/ID_MAFE_3cfd943f7de9aa2480da0c30735bb031
 msgid "Title of the new trigger"
-msgstr "Заголовок нового запуска"
+msgstr "Заголовок нового триггера"
 
 # TRANSLATION
 # LABEL/ID_MAFE_3d067bedfe2f4677470dd6ccf64d05ed
@@ -12465,7 +12465,7 @@ msgstr "There are problems saving the assigned user, please try again."
 # LABEL/ID_MAFE_3d8bb71f323428adfc2812695658672a
 #: LABEL/ID_MAFE_3d8bb71f323428adfc2812695658672a
 msgid "Trigger deleted successfully"
-msgstr "Запуск удален успешно"
+msgstr "Триггер удален успешно"
 
 # TRANSLATION
 # LABEL/ID_MAFE_3d980d5c80cc742a1f68a11b0db188a1
@@ -12477,13 +12477,13 @@ msgstr "Вставить переменную электронной почты"
 # LABEL/ID_MAFE_3dc0c79ab4ccf1ab2187b4261a4a43b4
 #: LABEL/ID_MAFE_3dc0c79ab4ccf1ab2187b4261a4a43b4
 msgid "Output Document saved successfully"
-msgstr "Выходной документ успешно сохранен"
+msgstr "Исходящий документ успешно сохранен"
 
 # TRANSLATION
 # LABEL/ID_MAFE_3e20abeb08058faefc326fd8ebf81c97
 #: LABEL/ID_MAFE_3e20abeb08058faefc326fd8ebf81c97
 msgid "Subform"
-msgstr "Подформа"
+msgstr "Субформа"
 
 # TRANSLATION
 # LABEL/ID_MAFE_3e661ccd1bd840f47829d2e6dbb5e651
@@ -12651,7 +12651,7 @@ msgstr "Зум"
 # LABEL/ID_MAFE_42728192eb543e8b035df3d040068d3d
 #: LABEL/ID_MAFE_42728192eb543e8b035df3d040068d3d
 msgid "Description of the new trigger"
-msgstr "Описание нового запуска"
+msgstr "Описание нового триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_42b5e40c0f14c557113865a3aa78b673
@@ -13161,7 +13161,7 @@ msgstr "A0Большой формат"
 # LABEL/ID_MAFE_56a1bf7a363021c1d31dd8338428cc03
 #: LABEL/ID_MAFE_56a1bf7a363021c1d31dd8338428cc03
 msgid "[LABEL/ID_MAFE_56a1bf7a363021c1d31dd8338428cc03] Custom Trigger"
-msgstr "Пользовательский запуск"
+msgstr "Пользовательский триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_56b77519470d41f8b2da598f1021508e
@@ -13341,7 +13341,7 @@ msgstr "Когда форма отправляется, создается но�
 # LABEL/ID_MAFE_5cdf3f8e0de1cb63a3cfb8bec5a5db9d
 #: LABEL/ID_MAFE_5cdf3f8e0de1cb63a3cfb8bec5a5db9d
 msgid "There are problems getting the triggers wizard list, please try again."
-msgstr "Есть проблемы с получением списка запусков, повторите попытку."
+msgstr "Есть проблемы с получением списка триггеров, повторите попытку."
 
 # TRANSLATION
 # LABEL/ID_MAFE_5d085d8447bc84ead2b9af188a8e4f0c
@@ -13473,7 +13473,7 @@ msgstr "Порт"
 # LABEL/ID_MAFE_60cf550c40960532dfd002fcfbc6725a
 #: LABEL/ID_MAFE_60cf550c40960532dfd002fcfbc6725a
 msgid "There are problems getting the Triggers list, please try again."
-msgstr "Есть проблемы с получением списка запусков, повторите попытку."
+msgstr "Есть проблемы с получением списка триггеров, повторите попытку."
 
 # TRANSLATION
 # LABEL/ID_MAFE_611ebad77c16b1edc01a8e4962094900
@@ -13545,7 +13545,7 @@ msgstr "Предыдущий год"
 # LABEL/ID_MAFE_6384750fb02541d64a749b1a9296a43f
 #: LABEL/ID_MAFE_6384750fb02541d64a749b1a9296a43f
 msgid "Condition Trigger"
-msgstr "Запуск условия"
+msgstr "Условный триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_6394d816bfb4220289a6f4b29cfb1834
@@ -13641,7 +13641,7 @@ msgstr "Февраль"
 # LABEL/ID_MAFE_65c3b5956adaf7365a8857abb7ddd26b
 #: LABEL/ID_MAFE_65c3b5956adaf7365a8857abb7ddd26b
 msgid "Execute a trigger when a case is deleted"
-msgstr "Выполнить запуск, когда задание удалено"
+msgstr "Выполнить триггер, когда задание удалено"
 
 # TRANSLATION
 # LABEL/ID_MAFE_6606bf86257a99bf75f2d6360e92e0df
@@ -13761,7 +13761,7 @@ msgstr "Тип стартового события"
 # LABEL/ID_MAFE_69f916b54b947775802a817788f74b52
 #: LABEL/ID_MAFE_69f916b54b947775802a817788f74b52
 msgid "New Trigger saved successfully"
-msgstr "Новый Запуск сохранен успешно"
+msgstr "Новый триггер сохранен успешно"
 
 # TRANSLATION
 # LABEL/ID_MAFE_6a26f548831e6a8c26bfbbd9f6ec61e0
@@ -14019,13 +14019,13 @@ msgstr "Импортировать"
 # LABEL/ID_MAFE_7308cd3156257f5139f5a76d3cace070
 #: LABEL/ID_MAFE_7308cd3156257f5139f5a76d3cace070
 msgid "An unexpected error while assigning the trigger, please try again later."
-msgstr "Неожиданные ошибки при назначении запуска, пожалуйста, повторите попытку позже."
+msgstr "Неожиданные ошибки при назначении триггера, пожалуйста, повторите попытку позже."
 
 # TRANSLATION
 # LABEL/ID_MAFE_7351dffefed9ebab76b3bd34aa6f755e
 #: LABEL/ID_MAFE_7351dffefed9ebab76b3bd34aa6f755e
 msgid "Output Document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # TRANSLATION
 # LABEL/ID_MAFE_736fda6b62eaca111776a53611ef2c92
@@ -14265,7 +14265,7 @@ msgstr "После"
 # LABEL/ID_MAFE_7c1f2a2d99328c41ac8c94a5871f2895
 #: LABEL/ID_MAFE_7c1f2a2d99328c41ac8c94a5871f2895
 msgid "- Select a trigger -"
-msgstr "- Выбрать запуск -"
+msgstr "- Выбрать триггер -"
 
 # TRANSLATION
 # LABEL/ID_MAFE_7c3c9ae5b8a82a715f5e606256560190
@@ -14511,7 +14511,7 @@ msgstr "Циклическое назначение"
 # LABEL/ID_MAFE_84ae11ae520a036da288ca8a0acc89b1
 #: LABEL/ID_MAFE_84ae11ae520a036da288ca8a0acc89b1
 msgid "New Trigger"
-msgstr "Новый запуск"
+msgstr "Новый триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_84cdc76cabf41bd7c961f6ab12f117d8
@@ -14529,7 +14529,7 @@ msgstr "Экспортировать объекты процесса"
 # LABEL/ID_MAFE_84ff23e034dfdf2b03ed32a46c01b3a1
 #: LABEL/ID_MAFE_84ff23e034dfdf2b03ed32a46c01b3a1
 msgid "[LABEL/ID_MAFE_84ff23e034dfdf2b03ed32a46c01b3a1] Triggers"
-msgstr "Запуски"
+msgstr "Триггеры"
 
 # TRANSLATION
 # LABEL/ID_MAFE_8512ae7d57b1396273f76fe6ed341a23
@@ -14685,7 +14685,7 @@ msgstr "Успешно удалено соединение с базой дан�
 # LABEL/ID_MAFE_899607da7ac548d9a143b9a649d9da96
 #: LABEL/ID_MAFE_899607da7ac548d9a143b9a649d9da96
 msgid "Copy Trigger"
-msgstr "Копировать запуск"
+msgstr "Копировать триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_89d0fdd0f8b1b6f918815729a338cd50
@@ -15339,7 +15339,7 @@ msgstr "Работает..."
 # LABEL/ID_MAFE_9cd2a4862f826886105d87195ee6998c
 #: LABEL/ID_MAFE_9cd2a4862f826886105d87195ee6998c
 msgid "[LABEL/ID_MAFE_9cd2a4862f826886105d87195ee6998c] Input Documents"
-msgstr "Входные документы"
+msgstr "Входящие документы"
 
 # TRANSLATION
 # LABEL/ID_MAFE_9cd75a090ed78909e6b9f4311a31e46f
@@ -15399,7 +15399,7 @@ msgstr "Условие"
 # LABEL/ID_MAFE_9e794f2c08707053dd2bb22a3b4d8888
 #: LABEL/ID_MAFE_9e794f2c08707053dd2bb22a3b4d8888
 msgid "Output Document deleted successfully"
-msgstr "Выходной документ успешно удален"
+msgstr "Исходящий документ успешно удален"
 
 # TRANSLATION
 # LABEL/ID_MAFE_9ed8ac8a23206c93a3602884788be7fa
@@ -15651,7 +15651,7 @@ msgstr "Уведомлять назначенного пользователя �
 # LABEL/ID_MAFE_a6527af0da63377b07a3effae750a485
 #: LABEL/ID_MAFE_a6527af0da63377b07a3effae750a485
 msgid "<br/>Triggers: Create scripts."
-msgstr "<br/> Запуски: создание скриптов."
+msgstr "<br/> Триггеры: создание скриптов."
 
 # TRANSLATION
 # LABEL/ID_MAFE_a6c0580005d36b8ad4194b3b31cdb9ee
@@ -15753,7 +15753,7 @@ msgstr "Вставить заголовок"
 # LABEL/ID_MAFE_a95f0dd593f8e3eb09960c0fbfe9e133
 #: LABEL/ID_MAFE_a95f0dd593f8e3eb09960c0fbfe9e133
 msgid "Trigger removed successfully"
-msgstr "Запуск удален успешно"
+msgstr "Триггер удален успешно"
 
 # TRANSLATION
 # LABEL/ID_MAFE_a9ef06d9637b09f171953304372d9bd8
@@ -15987,7 +15987,7 @@ msgstr "День месяца (пример: 1)"
 # LABEL/ID_MAFE_b326b5062b2f0e69046810717534cb09
 #: LABEL/ID_MAFE_b326b5062b2f0e69046810717534cb09
 msgid "true"
-msgstr "правда"
+msgstr "true"
 
 # TRANSLATION
 # LABEL/ID_MAFE_b33f61ccf2251cae904b8effbd7f57f0
@@ -16005,7 +16005,7 @@ msgstr "дата первоначального выбора"
 # LABEL/ID_MAFE_b4263bcd21beffde1fc98b3dd88f86bd
 #: LABEL/ID_MAFE_b4263bcd21beffde1fc98b3dd88f86bd
 msgid "Trigger is assigned."
-msgstr "Запуск назначен."
+msgstr "Триггер назначен."
 
 # TRANSLATION
 # LABEL/ID_MAFE_b4c7ae206140c5179619b952c3b672ef
@@ -16035,7 +16035,7 @@ msgstr "Вертикальный текст"
 # LABEL/ID_MAFE_b55a7dbee5118fdf297492f8fb6e8d4a
 #: LABEL/ID_MAFE_b55a7dbee5118fdf297492f8fb6e8d4a
 msgid "[LABEL/ID_MAFE_b55a7dbee5118fdf297492f8fb6e8d4a] Execute Trigger"
-msgstr "Выполнить запуск"
+msgstr "Выполнить триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_b55e509c697e4cca0e1d160a7806698f
@@ -16155,7 +16155,7 @@ msgstr "Недопустимый тип подключения"
 # LABEL/ID_MAFE_b77bbd177ec1e4d71a0fe96d3d4e8b39
 #: LABEL/ID_MAFE_b77bbd177ec1e4d71a0fe96d3d4e8b39
 msgid "Data Input"
-msgstr "Входные данные"
+msgstr "Входящие данные"
 
 # TRANSLATION
 # LABEL/ID_MAFE_b78a3223503896721cca1303f776159b
@@ -16197,7 +16197,7 @@ msgstr "id"
 # LABEL/ID_MAFE_b84b068f1f3f6b66583314870e2818c4
 #: LABEL/ID_MAFE_b84b068f1f3f6b66583314870e2818c4
 msgid "There are problems getting the output documents, please try again."
-msgstr "Есть проблемы с получением выходных документов, пожалуйста, повторите попытку."
+msgstr "Есть проблемы с получением исходящих документов, пожалуйста, повторите попытку."
 
 # TRANSLATION
 # LABEL/ID_MAFE_b86f4a68d98e2e1b9ed38ec3d850b02a
@@ -16233,7 +16233,7 @@ msgstr "<tr> <td> </ td> <td> SSS </ td> <td> 0 1 ... 998 999 </ td> </ tr> <tr>
 # LABEL/ID_MAFE_b9cf99bfe1ed82c4a117449ed85680db
 #: LABEL/ID_MAFE_b9cf99bfe1ed82c4a117449ed85680db
 msgid "There are problems saved the OutputDocument, please try again."
-msgstr "Есть проблемы с сохранением выходного документа, повторите попытку."
+msgstr "Есть проблемы с сохранением исходящего документа, повторите попытку."
 
 # TRANSLATION
 # LABEL/ID_MAFE_b9f5c797ebbf55adccdd8539a65a0241
@@ -16263,7 +16263,7 @@ msgstr "<tr> <td> <b> День недели (локаль) </ b> </ td> <td> e <
 # LABEL/ID_MAFE_bb3c8227885fe5d13241a9f7e5f06397
 #: LABEL/ID_MAFE_bb3c8227885fe5d13241a9f7e5f06397
 msgid "<br/>Output documents: Generate documents with process data."
-msgstr "<br/> Выходные документы: создание документов с данными процесса."
+msgstr "<br/>Исходящие документы: создание документов с данными процесса."
 
 # TRANSLATION
 # LABEL/ID_MAFE_bb7476567f5e12e60b01436dad77a533
@@ -16335,7 +16335,7 @@ msgstr "Формат (CSS)"
 # LABEL/ID_MAFE_bec3c2ccfb01e007c2d5282b01766fe1
 #: LABEL/ID_MAFE_bec3c2ccfb01e007c2d5282b01766fe1
 msgid "Trigger to execute"
-msgstr "Запуск для выполнения"
+msgstr "Триггер для выполнения"
 
 # TRANSLATION
 # LABEL/ID_MAFE_bf207aee24e634019ce40f4bc04b7262
@@ -16413,13 +16413,13 @@ msgstr "НЕТ"
 # LABEL/ID_MAFE_c312fca2f486deefd552a41ccc75bfab
 #: LABEL/ID_MAFE_c312fca2f486deefd552a41ccc75bfab
 msgid "Output Document edited successfully"
-msgstr "Выходной документ успешно отредактирован"
+msgstr "Исходящий документ успешно отредактирован"
 
 # TRANSLATION
 # LABEL/ID_MAFE_c336025d9ce830a12c4c3668febc2983
 #: LABEL/ID_MAFE_c336025d9ce830a12c4c3668febc2983
 msgid "Trigger updated correctly"
-msgstr "Запуск обновлен правильно"
+msgstr "Триггер обновлен правильно"
 
 # TRANSLATION
 # LABEL/ID_MAFE_c33b138a163847cdb6caeeb7c9a126b4
@@ -16593,13 +16593,13 @@ msgstr "Предмет"
 # LABEL/ID_MAFE_c78a4a6f9ede9c76f26b0cebed36189b
 #: LABEL/ID_MAFE_c78a4a6f9ede9c76f26b0cebed36189b
 msgid "OutPut Document (s)"
-msgstr "Выходной документ(ы)"
+msgstr "Исходящие документ(ы)"
 
 # TRANSLATION
 # LABEL/ID_MAFE_c793116b0fc9df6d8761028f4adbe90e
 #: LABEL/ID_MAFE_c793116b0fc9df6d8761028f4adbe90e
 msgid "Execute a trigger when a case is opened"
-msgstr "Выполнить запуск, когда задание открыто"
+msgstr "Выполнить триггер, когда задание открыто"
 
 # TRANSLATION
 # LABEL/ID_MAFE_c79bdf421714f5087fc34b7c538b6807
@@ -16635,7 +16635,7 @@ msgstr "строка или объект jQuery"
 # LABEL/ID_MAFE_c88ad0157bfa285e16c222e651c6d482
 #: LABEL/ID_MAFE_c88ad0157bfa285e16c222e651c6d482
 msgid "Execute a trigger when a case is paused"
-msgstr "Выполнить запуск, когда задание приостановлено"
+msgstr "Выполнить триггер, когда задание приостановлено"
 
 # TRANSLATION
 # LABEL/ID_MAFE_c942e2c249d4a7f9e2f4bddd02ef87e7
@@ -16647,7 +16647,7 @@ msgstr "По умолчанию: false <br> Показать кнопку «Оч
 # LABEL/ID_MAFE_c97cca23ba8eebfbe951796f03915107
 #: LABEL/ID_MAFE_c97cca23ba8eebfbe951796f03915107
 msgid "Edit Output Document"
-msgstr "Редактировать выходной документ"
+msgstr "Редактировать исходящий документ"
 
 # TRANSLATION
 # LABEL/ID_MAFE_c9838204ecea4595edd1ef4a76b66846
@@ -16797,7 +16797,7 @@ msgstr "множественный"
 # LABEL/ID_MAFE_ce4d4b319a571fda7b689cee71432d5d
 #: LABEL/ID_MAFE_ce4d4b319a571fda7b689cee71432d5d
 msgid "[LABEL/ID_MAFE_ce4d4b319a571fda7b689cee71432d5d] Custom Trigger"
-msgstr "Пользовательский запуск"
+msgstr "Пользовательский триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_ce50a09343724eb82df11390e2c1de18
@@ -17055,7 +17055,7 @@ msgstr "Есть проблемы с получением списка DynaForms
 # LABEL/ID_MAFE_d6d390d565e04f51d5d9e9b9d729927c
 #: LABEL/ID_MAFE_d6d390d565e04f51d5d9e9b9d729927c
 msgid "Do you want to delete this Trigger?"
-msgstr "Вы хотите удалить этот запуск?"
+msgstr "Вы хотите удалить этот триггер?"
 
 # TRANSLATION
 # LABEL/ID_MAFE_d6f50a79f146ae5544b50c2d9b100a0d
@@ -17649,7 +17649,7 @@ msgstr "Статус"
 # LABEL/ID_MAFE_ec6f1a89963c5b95d783e0c260fc959a
 #: LABEL/ID_MAFE_ec6f1a89963c5b95d783e0c260fc959a
 msgid "Can't connect start event to subprocess"
-msgstr "Невозможно подключить событие запуска к подпроцессу"
+msgstr "Невозможно подключить событие запуска к субпроцессу"
 
 # TRANSLATION
 # LABEL/ID_MAFE_ec724ea84e93ee183d93f0ee67eb5d47
@@ -17679,7 +17679,7 @@ msgstr "Имя значения"
 # LABEL/ID_MAFE_ecc40a7a6571d7e558482fbc1fa8bf7e
 #: LABEL/ID_MAFE_ecc40a7a6571d7e558482fbc1fa8bf7e
 msgid "An unexpected error while deleting the trigger, please try again later."
-msgstr "Неожиданные ошибки при удалении запуска, повторите попытку позже."
+msgstr "Неожиданные ошибки при удалении триггера, повторите попытку позже."
 
 # TRANSLATION
 # LABEL/ID_MAFE_ece7c5dcf104d858b2ea7b80d3c09dce
@@ -17751,7 +17751,7 @@ msgstr "Добавить новый"
 # LABEL/ID_MAFE_ef78da8db34b8af99c406b2bddea82b2
 #: LABEL/ID_MAFE_ef78da8db34b8af99c406b2bddea82b2
 msgid "Input Document (s)"
-msgstr "Входные документ(ы)"
+msgstr "Входящие документ(ы)"
 
 # TRANSLATION
 # LABEL/ID_MAFE_ef831a7b020689074c3df21c36dfc3c0
@@ -17913,7 +17913,7 @@ msgstr "Минуты"
 # LABEL/ID_MAFE_f698f67f5666aff10729d8a1cb1c14d2
 #: LABEL/ID_MAFE_f698f67f5666aff10729d8a1cb1c14d2
 msgid "Trigger"
-msgstr "Запуск"
+msgstr "Триггер"
 
 # TRANSLATION
 # LABEL/ID_MAFE_f6e23536e8d5c5f27f6f6d774eb81652
@@ -17985,7 +17985,7 @@ msgstr "в нижнем регистре"
 # LABEL/ID_MAFE_f827cf462f62848df37c5e1e94a4da74
 #: LABEL/ID_MAFE_f827cf462f62848df37c5e1e94a4da74
 msgid "True"
-msgstr "Правда"
+msgstr "True"
 
 # TRANSLATION
 # LABEL/ID_MAFE_f82e519e2e82239be5f49d78b24ea228
@@ -17997,7 +17997,7 @@ msgstr "Поддерживаемые элементы управления: не
 # LABEL/ID_MAFE_f8320b26d30ab433c5a54546d21f414c
 #: LABEL/ID_MAFE_f8320b26d30ab433c5a54546d21f414c
 msgid "False"
-msgstr "Ложный"
+msgstr "False"
 
 # TRANSLATION
 # LABEL/ID_MAFE_f870c761f7f6737381a821feb9a73890
@@ -18045,7 +18045,7 @@ msgstr "ратифицировать"
 # LABEL/ID_MAFE_fa3c608c8fc755543f0d37afd6a42651
 #: LABEL/ID_MAFE_fa3c608c8fc755543f0d37afd6a42651
 msgid "TO DO"
-msgstr "СДЕЛАТЬ"
+msgstr "В ПРОЦЕССЕ"
 
 # TRANSLATION
 # LABEL/ID_MAFE_fa3e5edac607a88d8fd7ecb9d6d67424
@@ -18099,7 +18099,7 @@ msgstr "Это сообщение об ошибке"
 # LABEL/ID_MAFE_fc13e2d25ee4c9f4b2263aa7066790a9
 #: LABEL/ID_MAFE_fc13e2d25ee4c9f4b2263aa7066790a9
 msgid "Create Output Document"
-msgstr "Создать выходной документ"
+msgstr "Создать исходящий документ"
 
 # TRANSLATION
 # LABEL/ID_MAFE_fc4786f4974405965a4a00dde8d6e9f9
@@ -18957,7 +18957,7 @@ msgstr "Вы хотите удалить это сообщение?"
 # LABEL/ID_MSG_CONFIRM_DELETE_OUTDOC
 #: LABEL/ID_MSG_CONFIRM_DELETE_OUTDOC
 msgid "Do you want to delete this output document ?"
-msgstr "Вы хотите удалить этот выходной документ?"
+msgstr "Вы хотите удалить этот исходящий документ?"
 
 # TRANSLATION
 # LABEL/ID_MSG_CONFIRM_DELETE_PROCESS
@@ -18999,7 +18999,7 @@ msgstr "Вы хотите удалить этот входной докумен�
 # LABEL/ID_MSG_CONFIRM_DELETE_TRIGGER
 #: LABEL/ID_MSG_CONFIRM_DELETE_TRIGGER
 msgid "Do you want to delete this trigger?"
-msgstr "Вы хотите удалить этот запуск?"
+msgstr "Вы хотите удалить этот триггер?"
 
 # TRANSLATION
 # LABEL/ID_MSG_CONFIRM_DELETE_USER
@@ -19029,7 +19029,7 @@ msgstr "Вы действительно хотите удалить этот я�
 # LABEL/ID_MSG_CONFIRM_REMOVE_TRIGGER
 #: LABEL/ID_MSG_CONFIRM_REMOVE_TRIGGER
 msgid "[LABEL/ID_MSG_CONFIRM_REMOVE_TRIGGER] Are you sure you want to remove this trigger?"
-msgstr "Вы действительно хотите удалить этот запуск?"
+msgstr "Вы действительно хотите удалить этот триггер?"
 
 # TRANSLATION
 # LABEL/ID_MSG_CONFIRM_REMOVE_USER
@@ -19389,7 +19389,7 @@ msgstr "Новый перевод"
 # LABEL/ID_NEW_TRIGGERS
 #: LABEL/ID_NEW_TRIGGERS
 msgid "[LABEL/ID_NEW_TRIGGERS] New Trigger"
-msgstr "Новый запуск"
+msgstr "Новый триггер"
 
 # TRANSLATION
 # LABEL/ID_NEW_VERSION
@@ -20091,19 +20091,19 @@ msgstr "Исходящий"
 # LABEL/ID_OUTPUT_DB
 #: LABEL/ID_OUTPUT_DB
 msgid "Output"
-msgstr "Выходной"
+msgstr "Вывод"
 
 # TRANSLATION
 # LABEL/ID_OUTPUT_DOCUMENT
 #: LABEL/ID_OUTPUT_DOCUMENT
 msgid "[LABEL/ID_OUTPUT_DOCUMENT] Output Document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # TRANSLATION
 # LABEL/ID_OUTPUT_DOCUMENTS
 #: LABEL/ID_OUTPUT_DOCUMENTS
 msgid "[LABEL/ID_OUTPUT_DOCUMENTS] Output Documents"
-msgstr "Выходные документы"
+msgstr "Исходящий документы"
 
 # TRANSLATION
 # LABEL/ID_OUTPUT_DOCUMENT_CONFIG_NOT_SUPPORT_EXTENSION
@@ -20115,7 +20115,7 @@ msgstr "Документ в его конфигурации не поддерж�
 # LABEL/ID_OUTPUT_DOCUMENT_DOES_NOT_EXIST
 #: LABEL/ID_OUTPUT_DOCUMENT_DOES_NOT_EXIST
 msgid "The Output Document with {0}: {1} does not exist."
-msgstr "Выходной документ с {0}: {1} не существует."
+msgstr "Исходящий документ с {0}: {1} не существует."
 
 # TRANSLATION
 # LABEL/ID_OUTPUT_DOCUMENT_INVALID_EXTENSION
@@ -20127,25 +20127,25 @@ msgstr "Недопустимое расширение"
 # LABEL/ID_OUTPUT_DOCUMENT_ITS_ASSIGNED
 #: LABEL/ID_OUTPUT_DOCUMENT_ITS_ASSIGNED
 msgid "The Output Document with {0}: {1} it's assigned in \"{2}\"."
-msgstr "Выходной документ с {0}: {1} назначен в \"{2}\"."
+msgstr "Исходящий документ с {0}: {1} назначен в \"{2}\"."
 
 # TRANSLATION
 # LABEL/ID_OUTPUT_DOCUMENT_TEMPLATE
 #: LABEL/ID_OUTPUT_DOCUMENT_TEMPLATE
 msgid "Output Document Template"
-msgstr "Шаблон выходного документа"
+msgstr "Шаблон исходящего документа"
 
 # TRANSLATION
 # LABEL/ID_OUTPUT_GENERATE
 #: LABEL/ID_OUTPUT_GENERATE
 msgid "[LABEL/ID_OUTPUT_GENERATE] Output Document to Generate"
-msgstr "Выходной документ для генерирования"
+msgstr "Исходящий документ для генерирования"
 
 # TRANSLATION
 # LABEL/ID_OUTPUT_INFO
 #: LABEL/ID_OUTPUT_INFO
 msgid "Output Document Information"
-msgstr "Информация о выходном документе"
+msgstr "Информация о исходящем документе"
 
 # TRANSLATION
 # LABEL/ID_OUTPUT_NOT_EXIST
@@ -20157,7 +20157,7 @@ msgstr "Вывод с {0}: '{1}' не существует."
 # LABEL/ID_OUTPUT_NOT_SAVE
 #: LABEL/ID_OUTPUT_NOT_SAVE
 msgid "Not saved because there is an Output Document with the same name in this process."
-msgstr "Не сохраняется, потому что в этом процессе есть выходной документ с таким же именем."
+msgstr "Не сохраняется, потому что в этом процессе есть исходящий документ с таким же именем."
 
 # TRANSLATION
 # LABEL/ID_OUTPUT_REMOVE
@@ -22635,7 +22635,7 @@ msgstr "Запрошенное действие не существует"
 # LABEL/ID_REQUEST_DOCUMENTS
 #: LABEL/ID_REQUEST_DOCUMENTS
 msgid "[LABEL/ID_REQUEST_DOCUMENTS] Input Documents"
-msgstr "Входные документы"
+msgstr "Входящие документы"
 
 # TRANSLATION
 # LABEL/ID_REQUEST_SENT
@@ -24489,7 +24489,7 @@ msgstr "Успешно"
 # LABEL/ID_SUMMARY
 #: LABEL/ID_SUMMARY
 msgid "Summary"
-msgstr "Сумма"
+msgstr "Обзор"
 
 # TRANSLATION
 # LABEL/ID_SUMMARY_DERIVATION_BATCH_ROUTING
@@ -25329,7 +25329,7 @@ msgstr "Все задания переназначены"
 # LABEL/ID_TO_DO
 #: LABEL/ID_TO_DO
 msgid "To do"
-msgstr "Сделать"
+msgstr "В процессе"
 
 # TRANSLATION
 # LABEL/ID_TO_FLOAT
@@ -25389,19 +25389,19 @@ msgstr "Файл перевода не доступен для записи. <br
 # LABEL/ID_TRIGGERS
 #: LABEL/ID_TRIGGERS
 msgid "[LABEL/ID_TRIGGERS] Triggers"
-msgstr "Запуски"
+msgstr "Триггеры"
 
 # TRANSLATION
 # LABEL/ID_TRIGGERS_SAVED
 #: LABEL/ID_TRIGGERS_SAVED
 msgid "Trigger saved"
-msgstr "Запуск сохранен"
+msgstr "Триггер сохранен"
 
 # TRANSLATION
 # LABEL/ID_TRIGGERS_UNAVAILABLE
 #: LABEL/ID_TRIGGERS_UNAVAILABLE
 msgid "No triggers are available. All triggers have been already assigned."
-msgstr "Запуски недоступны. Все запуски уже назначены."
+msgstr "Триггеры недоступны. Все триггеры уже назначены."
 
 # TRANSLATION
 # LABEL/ID_TRIGGERS_VALIDATE_EERR1
@@ -25413,13 +25413,13 @@ msgstr "* Объект {Object} {Description} зависит."
 # LABEL/ID_TRIGGERS_VALIDATION
 #: LABEL/ID_TRIGGERS_VALIDATION
 msgid "No Dependencies were found for this trigger in {Object} definitions"
-msgstr "Не найдено зависимостей для этого запуска в определениях {Объект}"
+msgstr "Не найдено зависимостей для этого триггера в определениях {Объект}"
 
 # TRANSLATION
 # LABEL/ID_TRIGGERS_VALIDATION_ERR2
 #: LABEL/ID_TRIGGERS_VALIDATION_ERR2
 msgid "({N}) Dependencies were found for this trigger in {Object} objects"
-msgstr "({N}) Зависимости были найдены для этого запуска в объектах {Объект}"
+msgstr "({N}) Зависимости были найдены для этого триггера в объектах {Объект}"
 
 # TRANSLATION
 # LABEL/ID_TRIGGERS_VALIDATION_ERR3
@@ -25431,37 +25431,37 @@ msgstr "* Объект {Object} {Description} зависит."
 # LABEL/ID_TRIGGER_ASSIGN
 #: LABEL/ID_TRIGGER_ASSIGN
 msgid "Triggers has been assigned successfully."
-msgstr "Запуски успешно назначены."
+msgstr "Триггеры успешно назначены."
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_COPY_OPTION
 #: LABEL/ID_TRIGGER_COPY_OPTION
 msgid "Copy/Import Triggers from a Process"
-msgstr "Копировать / импортировать запуски из процесса"
+msgstr "Копировать / импортировать триггеры из процесса"
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_COPY_OPTION_DESCRIPTION
 #: LABEL/ID_TRIGGER_COPY_OPTION_DESCRIPTION
 msgid "With this option you can copy/import a trigger from any other processes in the system."
-msgstr "С помощью этой опции вы можете копировать / импортировать запуск из любых других процессов в системе."
+msgstr "С помощью этой опции вы можете копировать / импортировать триггер из любых других процессов в системе."
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_COPY_TITLE
 #: LABEL/ID_TRIGGER_COPY_TITLE
 msgid "Copy/Import Trigger"
-msgstr "Копировать/Импортировать запуск"
+msgstr "Копировать/Импортировать триггер"
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_DB
 #: LABEL/ID_TRIGGER_DB
 msgid "[LABEL/ID_TRIGGER_DB] Trigger"
-msgstr "Запуск"
+msgstr "Триггер"
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_DOES_NOT_EXIST
 #: LABEL/ID_TRIGGER_DOES_NOT_EXIST
 msgid "The trigger with {0}: {1} does not exist."
-msgstr "Запуск с {0}: {1} не существует."
+msgstr "Триггер с {0}: {1} не существует."
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_EDITOR_HINT_ADVISE_MESSAGE
@@ -25473,31 +25473,31 @@ msgstr "Нажмите Ctrl + Space в редакторе, чтобы получ
 # LABEL/ID_TRIGGER_HAS_BEEN_MODIFIED_MANUALLY_INVALID_FOR_WIZARD
 #: LABEL/ID_TRIGGER_HAS_BEEN_MODIFIED_MANUALLY_INVALID_FOR_WIZARD
 msgid "The trigger with {0}: {1} has been manually modified. It is invalid for the wizard."
-msgstr "Запуск с {0}: {1} был изменен вручную. Это недопустимо для мастера."
+msgstr "Триггер с {0}: {1} был изменен вручную. Это недопустимо для мастера."
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_HAS_NOT_BEEN_CREATED_WITH_WIZARD
 #: LABEL/ID_TRIGGER_HAS_NOT_BEEN_CREATED_WITH_WIZARD
 msgid "The trigger with {0}: {1}, has not been created with the wizard."
-msgstr "Запуск с {0}: {1} не был создан с помощью мастера."
+msgstr "Триггер с {0}: {1} не был создан с помощью мастера."
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_NOT_EXIST
 #: LABEL/ID_TRIGGER_NOT_EXIST
 msgid "The trigger with {0}: '{1}' does not exist."
-msgstr "Запуск с {0}: '{1}' не существует."
+msgstr "Триггер с {0}: '{1}' не существует."
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_REMOVE
 #: LABEL/ID_TRIGGER_REMOVE
 msgid "Trigger has been removed successfully."
-msgstr "Запуск успешно удален."
+msgstr "Триггер успешно удален."
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_REQUIRED
 #: LABEL/ID_TRIGGER_REQUIRED
 msgid "Trigger is required"
-msgstr "Требуется запуск"
+msgstr "Требуется триггер"
 
 # TRANSLATION
 # LABEL/ID_TRIGGER_RETURN_LABEL
@@ -25521,13 +25521,13 @@ msgstr "Редактировать исходный код"
 # LABEL/ID_TRIGGER_TITLE_ALREADY_EXISTS
 #: LABEL/ID_TRIGGER_TITLE_ALREADY_EXISTS
 msgid "The trigger title with {0}: \"{1}\" already exists."
-msgstr "Заголовок запуска с {0}: \"{1}\" уже существует."
+msgstr "Заголовок триггера с {0}: \"{1}\" уже существует."
 
 # TRANSLATION
 # LABEL/ID_TRUE
 #: LABEL/ID_TRUE
 msgid "TRUE"
-msgstr "Правда"
+msgstr "TRUE"
 
 # TRANSLATION
 # LABEL/ID_TUE
@@ -25839,7 +25839,7 @@ msgstr "Обновить параметры входа в систему"
 # LABEL/ID_UPDATE_OUTPUT_DOCUMENT
 #: LABEL/ID_UPDATE_OUTPUT_DOCUMENT
 msgid "Update Output Document"
-msgstr "Обновить выходной документ"
+msgstr "Обновить исходящий документ"
 
 # TRANSLATION
 # LABEL/ID_UPDATE_PMTABLE
@@ -25869,7 +25869,7 @@ msgstr "Редактировать текст"
 # LABEL/ID_UPDATE_TRIGGER
 #: LABEL/ID_UPDATE_TRIGGER
 msgid "Update trigger"
-msgstr "Обновить запуск"
+msgstr "Обновить триггер"
 
 # TRANSLATION
 # LABEL/ID_UPDATE_USER
@@ -26121,7 +26121,7 @@ msgstr "Загрузите действительный файл CSV"
 # LABEL/ID_UP_TRIGGER
 #: LABEL/ID_UP_TRIGGER
 msgid "Up Trigger"
-msgstr "Вверх запуск"
+msgstr "Вверх триггер"
 
 # TRANSLATION
 # LABEL/ID_USER
@@ -26301,7 +26301,7 @@ msgstr "Этот пользователь: {0} не может обновлят�
 # LABEL/ID_USER_CASES_NOT_START
 #: LABEL/ID_USER_CASES_NOT_START
 msgid "User can't start a case because doesn't have a starting task assigned"
-msgstr "Пользователь не может запустить случай, потому что не имеет назначенной задачи запуска"
+msgstr "Пользователь не может запустить задание, потому что не имеет назначенной задачи запуска"
 
 # TRANSLATION
 # LABEL/ID_USER_CREATED_SUCCESSFULLY
@@ -27225,7 +27225,7 @@ msgstr "Название рабочей области"
 # LABEL/ID_WORKSPACE_USING
 #: LABEL/ID_WORKSPACE_USING
 msgid "Using workspace"
-msgstr "Использование рабочего пространства"
+msgstr "Используемое рабочее пространство"
 
 # TRANSLATION
 # LABEL/ID_WORK_DAYS
@@ -27921,7 +27921,7 @@ msgstr "Рабочая область уже синхронизирована с
 # LABEL/PENTAHO_LABEL_TABLE_SUCCESS
 #: LABEL/PENTAHO_LABEL_TABLE_SUCCESS
 msgid "Table APP_CACHE_VIEW and triggers are installed successfully"
-msgstr "Таблица APP_CACHE_VIEW и запуски установлены успешно"
+msgstr "Таблица APP_CACHE_VIEW и триггеры установлены успешно"
 
 # TRANSLATION
 # LABEL/PENTAHO_LABEL_TABLE_SYNCHED
@@ -27933,7 +27933,7 @@ msgstr "Рабочая область синхронизирована с реш
 # LABEL/PENTAHO_LABEL_TABLE_TRIGGERS
 #: LABEL/PENTAHO_LABEL_TABLE_TRIGGERS
 msgid "Database tables and triggers"
-msgstr "Таблицы базы данных и запуски"
+msgstr "Таблицы базы данных и триггеры"
 
 # TRANSLATION
 # LABEL/PENTAHO_LABEL_URL
@@ -27987,7 +27987,7 @@ msgstr "Пользователь и пароль рабочей области P
 # LABEL/PENTAHO_TABLES_TRIGGERS
 #: LABEL/PENTAHO_TABLES_TRIGGERS
 msgid "[LABEL/PENTAHO_TABLES_TRIGGERS] Database tables and triggers"
-msgstr "Таблицы базы данных и запуски"
+msgstr "Таблицы базы данных и триггеры"
 
 # TRANSLATION
 # LABEL/PHOTO_GALLERY
@@ -28083,7 +28083,7 @@ msgstr "Тест имеет"
 # LABEL/TO_DO
 #: LABEL/TO_DO
 msgid "[LABEL/TO_DO] To Do"
-msgstr "Сделать"
+msgstr "В процессе"
 
 # TRANSLATION
 # LABEL/UID_UNDEFINED_USER
@@ -29349,7 +29349,7 @@ msgstr "Заголовок"
 # cases/cases_AllOutputdocsList.xml
 #: text - OUTDOCTITLE
 msgid "[cases/cases_AllOutputdocsList.xml?OUTDOCTITLE] Output Document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # cases/cases_AllOutputdocsList.xml?ORIGIN
 # cases/cases_AllOutputdocsList.xml
@@ -29385,7 +29385,7 @@ msgstr "Заголовок"
 # cases/cases_AllOutputdocsList_Summary.xml
 #: text - OUTDOCTITLE
 msgid "[cases/cases_AllOutputdocsList_Summary.xml?OUTDOCTITLE] Output Document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # cases/cases_AllOutputdocsList_Summary.xml?CREATE_DATE
 # cases/cases_AllOutputdocsList_Summary.xml
@@ -29481,7 +29481,7 @@ msgstr "Комментарии"
 # cases/cases_AttachInputDocument1.xml
 #: checkbox - MORE
 msgid "Upload Multiple Input Documents"
-msgstr "Загрузка нескольких входных документов"
+msgstr "Загрузка нескольких входящих документов"
 
 # cases/cases_AttachInputDocument1.xml?SAVE
 # cases/cases_AttachInputDocument1.xml
@@ -29565,7 +29565,7 @@ msgstr "Комментарии"
 # cases/cases_AttachInputDocument2.xml
 #: checkbox - MORE
 msgid "[cases/cases_AttachInputDocument2.xml?MORE] Upload Multiple Input Documents"
-msgstr "Загрузка нескольких входных документов"
+msgstr "Загрузка нескольких входящих документов"
 
 # cases/cases_AttachInputDocument2.xml?SAVE
 # cases/cases_AttachInputDocument2.xml
@@ -29655,7 +29655,7 @@ msgstr "Комментарии"
 # cases/cases_AttachInputDocument3.xml
 #: checkbox - MORE
 msgid "[cases/cases_AttachInputDocument3.xml?MORE] Upload Multiple Input Documents"
-msgstr "Загрузка нескольких входных документов"
+msgstr "Загрузка нескольких входящих документов"
 
 # cases/cases_AttachInputDocument3.xml?SAVE
 # cases/cases_AttachInputDocument3.xml
@@ -33255,7 +33255,7 @@ msgstr "Файл"
 # cases/cases_ViewAnyOutputDocument.xml
 #: caption - OUT_DOC_TITLE
 msgid "Output document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # cases/cases_ViewAnyOutputDocument.xml?APP_DOC_CREATE_DATE
 # cases/cases_ViewAnyOutputDocument.xml
@@ -33651,7 +33651,7 @@ msgstr "Следующий шаг"
 # cases/cases_ViewOutputDocument2.xml
 #: caption - OUT_DOC_TITLE
 msgid "[cases/cases_ViewOutputDocument2.xml?OUT_DOC_TITLE] Output document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # cases/cases_ViewOutputDocument2.xml?OUT_DOC_DESCRIPTION
 # cases/cases_ViewOutputDocument2.xml
@@ -33681,7 +33681,7 @@ msgstr "Следующий шаг"
 # cases/cases_ViewOutputDocument3.xml
 #: caption - OUT_DOC_TITLE
 msgid "[cases/cases_ViewOutputDocument3.xml?OUT_DOC_TITLE] Output document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # cases/cases_ViewOutputDocument3.xml?OUT_DOC_DESCRIPTION
 # cases/cases_ViewOutputDocument3.xml
@@ -36349,7 +36349,7 @@ msgstr "Условия"
 # events/eventsEdit.xml
 #: dropdown - EVN_ACTION
 msgid "Execute trigger"
-msgstr "Множественный"
+msgstr "Выполнить триггер"
 
 # events/eventsEdit.xml?EVN_ACTION-SEND_MESSAGE
 # events/eventsEdit.xml
@@ -36373,7 +36373,7 @@ msgstr "Multiple"
 # events/eventsEdit.xml
 #: dropdown - TRI_UID
 msgid "Create a new trigger"
-msgstr "Создать новый запуск"
+msgstr "Создать новый триггер"
 
 # events/eventsEdit.xml?TITLE3
 # events/eventsEdit.xml
@@ -36451,7 +36451,7 @@ msgstr "-- Default --"
 # events/eventsEditAction.xml
 #: dropdown - TRI_UID
 msgid "[events/eventsEditAction.xml?TRI_UID] Trigger"
-msgstr "-- Выбрать --"
+msgstr "-- Триггер --"
 
 # events/eventsEditAction.xml?TRI_UID-
 # events/eventsEditAction.xml
@@ -36613,7 +36613,7 @@ msgstr "Условие"
 # events/eventsNew.xml
 #: dropdown - EVN_ACTION
 msgid "[events/eventsNew.xml?EVN_ACTION] Execute trigger"
-msgstr "Множественный"
+msgstr "Выполнить триггер"
 
 # events/eventsNew.xml?EVN_ACTION-SEND_MESSAGE
 # events/eventsNew.xml
@@ -38197,7 +38197,7 @@ msgstr "Сохранить"
 # messages/messages_List.xml
 #: text - fMESS_TITLE
 msgid "[messages/messages_List.xml?fMESS_TITLE] Output document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # messages/messages_List.xml?MESS_TYPE
 # messages/messages_List.xml
@@ -38257,7 +38257,7 @@ msgstr "Новый"
 # messages/messages_ShortList.xml
 #: text - MESS_TITLE
 msgid "[messages/messages_ShortList.xml?MESS_TITLE] Output document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # messages/messages_ShortList.xml?EDIT
 # messages/messages_ShortList.xml
@@ -38353,7 +38353,7 @@ msgstr "Отменить"
 # outputdocs/outputdocs_List.xml
 #: text - OUT_DOC_TITLE
 msgid "[outputdocs/outputdocs_List.xml?OUT_DOC_TITLE] Output document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # outputdocs/outputdocs_List.xml?OUT_DOC_FILENAME
 # outputdocs/outputdocs_List.xml
@@ -39451,7 +39451,7 @@ msgstr "Вы уверены, что хотите удалить этот про�
 # processes/processes_DeleteCases.xml
 #: text - TO_DO
 msgid "[processes/processes_DeleteCases.xml?TO_DO] To Do"
-msgstr "Сделать"
+msgstr "В процессе"
 
 # processes/processes_DeleteCases.xml?COMPLETED
 # processes/processes_DeleteCases.xml
@@ -39571,7 +39571,7 @@ msgstr "Этот подпроцесс"
 # processes/processes_Edit.xml
 #: dropdown - PRO_TRI_DELETED
 msgid "[processes/processes_Edit.xml?PRO_TRI_DELETED] Execute a trigger when a case is deleted"
-msgstr "- Не выполняйте ничего -"
+msgstr "Выполнить триггер, когда задание удалено"
 
 # processes/processes_Edit.xml?PRO_TRI_DELETED-
 # processes/processes_Edit.xml
@@ -44209,7 +44209,7 @@ msgstr "ID Задания"
 # setup/wsInputDocumentList.xml
 #: button - ACTIONB
 msgid "InputDocumentList"
-msgstr "Список входных документов"
+msgstr "Список входящих документов"
 
 # setup/wsInputDocumentProcessList.xml?SESSION_ID
 # setup/wsInputDocumentProcessList.xml
@@ -44227,7 +44227,7 @@ msgstr "ID Процесса"
 # setup/wsInputDocumentProcessList.xml
 #: button - ACTIONB
 msgid "InputDocumentProcessList"
-msgstr "Список входных документов"
+msgstr "Список входящих документов"
 
 # setup/wsLogin.xml?title
 # setup/wsLogin.xml
@@ -44617,7 +44617,7 @@ msgstr "Id Сессии"
 # setup/wsTriggerList.xml
 #: button - ACTIONB
 msgid "TriggerList"
-msgstr "Список запусков"
+msgstr "Список триггеров"
 
 # setup/wsUnassignedCaseList.xml?SESSION_ID
 # setup/wsUnassignedCaseList.xml
@@ -45121,13 +45121,13 @@ msgstr "Сохранить"
 # steps/triggers_Assign.xml
 #: title - TITLE
 msgid "[steps/triggers_Assign.xml?TITLE] Available Triggers"
-msgstr "Доступные запуски"
+msgstr "Доступные триггеры"
 
 # steps/triggers_Assign.xml?TRI_UID
 # steps/triggers_Assign.xml
 #: dropdown - TRI_UID
 msgid "[steps/triggers_Assign.xml?TRI_UID] Triggers"
-msgstr "Запуски"
+msgstr "Триггеры"
 
 # steps/triggers_Assign.xml?ST_CONDITION
 # steps/triggers_Assign.xml
@@ -45145,7 +45145,7 @@ msgstr "Назначить"
 # steps/triggers_NoAssign.xml
 #: subtitle - MESSAGE
 msgid "Triggers not created or all the triggers available were assigned!"
-msgstr "Не созданы запуски или все доступные запуски были назначены!"
+msgstr "Не созданы триггеры или все доступные триггеры были назначены!"
 
 # steps/triggers_NoAssign.xml?ClOSE
 # steps/triggers_NoAssign.xml
@@ -45247,7 +45247,7 @@ msgstr "Minutes"
 # tasks/tasks_AssignmentRules.xml
 #: dropdown - TAS_SELFSERVICE_TRIGGER_UID
 msgid "[tasks/tasks_AssignmentRules.xml?TAS_SELFSERVICE_TRIGGER_UID] Trigger to execute"
-msgstr "- Выбрать запуск -"
+msgstr "- Выбрать триггер -"
 
 # tasks/tasks_AssignmentRules.xml?TAS_SELFSERVICE_TRIGGER_UID-
 # tasks/tasks_AssignmentRules.xml
@@ -45715,7 +45715,7 @@ msgstr "Заголовок"
 # tracker/tracker_AvailableCaseTrackerObjects.xml
 #: dropdown - OBJECT_TYPE
 msgid "[tracker/tracker_AvailableCaseTrackerObjects.xml?OBJECT_TYPE] Type"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # tracker/tracker_AvailableCaseTrackerObjects.xml?OBJECT_TYPE-DYNAFORM
 # tracker/tracker_AvailableCaseTrackerObjects.xml
@@ -46279,7 +46279,7 @@ msgstr "Файл"
 # tracker/tracker_ViewAnyOutputDocument.xml
 #: caption - OUT_DOC_TITLE
 msgid "[tracker/tracker_ViewAnyOutputDocument.xml?OUT_DOC_TITLE] Output document"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # tracker/tracker_ViewAnyOutputDocument.xml?APP_DOC_CREATE_DATE
 # tracker/tracker_ViewAnyOutputDocument.xml
@@ -46315,7 +46315,7 @@ msgstr "Заголовок"
 # tracker/tracker_objectsList.xml
 #: dropdown - CTO_TYPE_OBJ
 msgid "[tracker/tracker_objectsList.xml?CTO_TYPE_OBJ] Type"
-msgstr "Выходной документ"
+msgstr "Исходящий документ"
 
 # tracker/tracker_objectsList.xml?CTO_TYPE_OBJ-DYNAFORM
 # tracker/tracker_objectsList.xml
@@ -46357,7 +46357,7 @@ msgstr "Ярлык"
 # triggers/triggerCopy.xml
 #: title - LBLTITLE1
 msgid "Trigger Information"
-msgstr "Информация о запуске"
+msgstr "Информация о триггере"
 
 # triggers/triggerCopy.xml?PROCESS_UID
 # triggers/triggerCopy.xml
@@ -46375,7 +46375,7 @@ msgstr "- Select a process -"
 # triggers/triggerCopy.xml
 #: dropdown - TRIGGER_UID
 msgid "[triggers/triggerCopy.xml?TRIGGER_UID] Trigger"
-msgstr "- Выбрать запуск -"
+msgstr "- Выбрать триггер -"
 
 # triggers/triggerCopy.xml?TRIGGER_UID-
 # triggers/triggerCopy.xml
@@ -46393,13 +46393,13 @@ msgstr ""
 # triggers/triggerCopy.xml
 #: text - TRI_TITLE
 msgid "[triggers/triggerCopy.xml?TRI_TITLE] Title of the new trigger"
-msgstr "Заголовок нового запуска"
+msgstr "Заголовок нового триггера"
 
 # triggers/triggerCopy.xml?TRI_DESCRIPTION
 # triggers/triggerCopy.xml
 #: textarea - TRI_DESCRIPTION
 msgid "[triggers/triggerCopy.xml?TRI_DESCRIPTION] Description of the new trigger"
-msgstr "Описание нового запуска"
+msgstr "Описание нового триггера"
 
 # triggers/triggerCopy.xml?TRI_WEBBOT
 # triggers/triggerCopy.xml
@@ -46423,7 +46423,7 @@ msgstr "Отменить"
 # triggers/triggersCustom.xml
 #: title - TITLE
 msgid "[triggers/triggersCustom.xml?TITLE] Trigger Information"
-msgstr "Информация о запуске"
+msgstr "Информация о триггере"
 
 # triggers/triggersCustom.xml?TRI_TITLE
 # triggers/triggersCustom.xml
@@ -46453,7 +46453,7 @@ msgstr "Отменить"
 # triggers/triggersNarrowEdit.xml
 #: title - TITLE
 msgid "Trigger Script"
-msgstr "Скрипт запуска"
+msgstr "Скрипт триггера"
 
 # triggers/triggersNarrowEdit.xml?TRI_WEBBOT
 # triggers/triggersNarrowEdit.xml
@@ -46477,7 +46477,7 @@ msgstr "Сохранить"
 # triggers/triggersProperties.xml
 #: title - TITLE
 msgid "[triggers/triggersProperties.xml?TITLE] Trigger Information"
-msgstr "Информация о запуске"
+msgstr "Информация о триггере"
 
 # triggers/triggersProperties.xml?TRI_TITLE
 # triggers/triggersProperties.xml
@@ -47371,7 +47371,7 @@ msgstr "<center> Сводка пользовательских заданий </
 # users/users_DeleteAssign.xml
 #: text - TO_DO
 msgid "[users/users_DeleteAssign.xml?TO_DO] To Do"
-msgstr "Сделать"
+msgstr "В процессе"
 
 # users/users_DeleteAssign.xml?DRAFT
 # users/users_DeleteAssign.xml

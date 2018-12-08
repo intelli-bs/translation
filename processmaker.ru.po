@@ -18111,7 +18111,7 @@ msgstr "Создать / Выбрать переменную"
 # LABEL/ID_MAFE_fc85b3878f914dbad84b82aa35d1c9b9
 #: LABEL/ID_MAFE_fc85b3878f914dbad84b82aa35d1c9b9
 msgid "[LABEL/ID_MAFE_fc85b3878f914dbad84b82aa35d1c9b9] Output Documents"
-msgstr "Выходные документы"
+msgstr "Исходящие документы"
 
 # TRANSLATION
 # LABEL/ID_MAFE_fcf4ce3ff760206c487c9b5a6677dc1c
